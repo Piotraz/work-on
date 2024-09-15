@@ -8,6 +8,7 @@
             <img src="{{ asset('img/logo_ue_poziom_kolor.jpg') }}" class="img-fluid" alt="Logo UE FEKP">
         </div>
 
+        {{-- Slider --}}
         <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['670px','670px','670px','550px','500px']" style="height: 670px;">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
@@ -20,17 +21,17 @@
                                     <div class="d-flex flex-column align-items-center">
                                         <h3 class="position-relative text-color-light text-4 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
                                             <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-                                                <img src="img/lazy.png" data-src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
+                                                <img src="{{ asset('img/lazy.png') }}" data-src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation lazyload" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                             </span>
                                            Projekt aktywizacji zawodowej
                                             <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-                                                <img src="img/lazy.png" data-src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
+                                                <img src="{{ asset('img/lazy.png') }}" data-src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation lazyload" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'imgFluid': false, 'minWindowWidth': 0}" alt="" />
                                             </span>
                                         </h3>
                                         <h2 class="porto-big-title text-color-light font-weight-extra-bold mb-3" data-plugin-animated-letters data-plugin-options="{'startDelay': 500, 'minWindowWidth': 0, 'animationSpeed': 100, 'animationName': 'fadeInRightShorterOpacity', 'letterClass': 'd-inline-block'}">WORK-ON 7</h2>
                                         <p class="text-4 text-color-light font-weight-light text-center mb-5 px-5" data-plugin-animated-letters data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Włącz się na lepszą pracę !</p>
 
-                                        <a href="#" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
+                                        <a href="#home-start" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
 
                                     </div>
                                 </div>
@@ -55,7 +56,7 @@
 
                                 <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Udział w projekcie to szansa na zmianę profilu zawodowego na bardziej opłacalny.</p>
 
-                                <a href="#" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
+                                <a href="{{ route('project.it') }}" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
                             </div>
                         </div>
                     </div>
@@ -73,10 +74,10 @@
                                         <img src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
                                     </span>
                                 </h3>
-                                <h1 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Ścieżka FIZJO</h1>
-                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Poznaj najnowsze techniki pracy z pacjentem i rozpocznij własną praktykę zawodową.</p>
+                                <h1 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Ścieżka FIZJO </h1>
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Poznaj najnowsze techniki, aby skuteczniej pomagać swoim pacjentom.</p>
 
-                                <a href="#" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
+                                <a href="{{ route('project.fizjo') }}" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
                             </div>
                         </div>
                     </div>
@@ -99,16 +100,15 @@
 
                 <div class="row align-items-center">
                     <div class="col-lg-8">
-                        <p>
-                            Chcesz wejść na wyższy <span class="highlighted-word">poziom ?</span>
+                        <p>Chcesz wejść na wyższy <span class="highlighted-word">poziom ?</span>
                             <span>Sprawdź czy kwalifikujesz się do udziału w projekcie.</span>
                         </p>
 
                     </div>
                     <div class="col-lg-4">
                         <div class="get-started text-start text-lg-end">
-                            <a href="#" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Zapisz się teraz</a>
-                            <div class="learn-more"><a href="#">dowiedz się więcej</a></div>
+                            <a href="{{ route('rekrutacja') }}" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Zapisz się teraz</a>
+                            <div class="learn-more"><a href="#home-start" data-hash data-hash-offset="0" data-hash-offset-lg="100" >dowiedz się więcej</a></div>
                         </div>
                     </div>
                 </div>
@@ -116,6 +116,8 @@
             </div>
         </div>
 
+        {{-- Z nami zdobędziesz --}}
+        <a id="home-start"></a>
         <div class="container">
 
             <div class="row text-center pt-3">
@@ -180,14 +182,27 @@
             </div>
         </div>
 
-        <div class="container mb-0 pb-4">
-
-            <div class="row">
-                <div class="col mb-3">
-                    <hr class="my-5">
+        {{-- Oficjalnie --}}
+        <section class="section bg-color-grey section-height-2 border-0 m-0 mb-4">
+            <div class="container">
+                <h2 class="font-weight-normal text-7">Oficjalnie <strong class="font-weight-extra-bold">o projekcie</strong></h2>
+                <div>
+                    <p><strong>Ośrodek Szkoleniowo-Wdrożeniowy Marek Szarata Sp. z o.o.</strong> uzyskał dotację z Unii Europejskiej na realizację projektu <span class="text-primary font-weight-bold alternative-font-2">"WORK-ON7 - Włącz się na lepszą pracę"</span> w ramach programu Fundusze Europejskie dla Kujaw i Pomorza 2021-2027.</p>
+                    <p>Celem projektu jest poprawa sytuacji na rynku pracy 108 osób dorosłych, w tym 54 kobiet, zamieszkałych w woj. kujawsko-pomorskie, zatrudnionych na umowach krótkoterminowych lub pracujących w ramach umów cywilno-prawnych lub ubogich pracujących.</p>
+                    <p>Cel projektu zostanie osiągnięty dzięki dostosowaniu kwalifikacji i kompetencji uczestników do potrzeb lokalnego rynku pracy oraz zdobyciu przez nich doświadczenia zawodowego. </p>
+                    <p>Rezultatem będzie zmiana z niepewnego do stabilnego zatrudnienia lub z niepełnego do pełnego zatrudnienia, a także do zmiana stanowiska lub awansu wiążącego się z podwyższeniem wynagrodzenia uczestników projektu.</p>
+                    <p class="text-primary font-weight-bold alternative-font-2">#FunduszeUE #FunduszeEuropejskie</p>
+                    <p>Okres realizacji projektu: <strong> 01.09.2024 – 31.12.2025</strong></p>
+                    <p>Wartość projektu: <strong> 2 048 133,08 zł</strong></p>
+                    <p>Wysokość wkładu z Funduszy Europejskich: <strong> 1 841 733,08 zł</strong></p>
                 </div>
             </div>
+        </section>
 
+        {{-- Zapewniamy --}}
+        <div class="container mb-0 pb-4">
+
+            {{-- <hr class="my-5"> --}}
             <div class="row pb-3">
                 <div class="col-lg-8">
                     <h2 class="font-weight-normal text-7">Naszym uczestnikom <strong class="font-weight-extra-bold">zapewniamy</strong></h2>
@@ -195,78 +210,62 @@
                         <div class="col-sm-6">
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-support text-color-primary"></i>
+                                    <i class="fa-solid fa-handshake-simple text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Customer Support</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Doradztwo zawodowe</h4>
+                                    <p class="mb-4">Spotkanie z doradcą zawodowym, dzięki któremu zbadamy Twój potencjał i określimy Plan Działania w projekcie zgodny z Twoimi predyspozycjami.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-doc text-color-primary"></i>
+                                    <i class="fa-solid fa-person-chalkboard text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">HTML5 / CSS3 / JS</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Szkolenia</h4>
+                                    <p class="mb-4">Profesjonalne szkolenia zawodowe ukierunkowanych na kwalifikacje i kompetencje wynikających z potrzeb rynku pracy.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-social-google text-color-primary"></i>
+                                    <i class="fa-solid fa-sack-dollar text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">500+ Google Fonts</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Stydendium i inne benefity</h4>
+                                    <p class="mb-4">Za udział w zajęciach otrzymasz od nas stypendium szkoleniowe. Aby uczyło się przyjemnie i efektywnie, zapewniamy każdego dnia smaczny catering oraz pyszną kawę.</p>
                                 </div>
                             </div>
-                            <div class="feature-box feature-box-style-2">
-                                <div class="feature-box-icon">
-                                    <i class="icons icon-pencil text-color-primary"></i>
-                                </div>
-                                <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Colors</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="col-sm-6">
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-layers text-color-primary"></i>
+                                    <i class="fa-solid fa-person-chalkboard text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Sliders</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Akademia kompetencji miękkich</h4>
+                                    <p class="mb-4">Szkolenie ukierunkowane na rozwój kluczowych kompetencji miękkich związanych z rozwojem zawodowym i przygotowaniem do procesu rekrutacji, awansu czy zmiany stanowiska pracy.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-user text-color-primary"></i>
+                                    <i class="fa-solid fa-person-digging text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Icons</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
+                                    <p class="mb-4">Szansa na zdobycie lub uzupełnienie doświadczenia zawodowego oraz nabycie praktycznych umiejętności w zakresie wykonywania danego zawodu.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
                                 <div class="feature-box-icon">
-                                    <i class="icons icon-menu text-color-primary"></i>
+                                    <i class="fa-solid fa-handshake-simple text-color-primary"></i>
                                 </div>
                                 <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Buttons</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
+                                    <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
+                                    <p class="mb-4">Indywidualne spotkania z pośrednikiem pracy w celu uzyskania lepszego zatrudnienia.</p>
                                 </div>
                             </div>
-                            <div class="feature-box feature-box-style-2">
-                                <div class="feature-box-icon">
-                                    <i class="icons icon-screen-desktop text-color-primary"></i>
-                                </div>
-                                <div class="feature-box-info">
-                                    <h4 class="font-weight-bold text-4-5 mb-1">Lightbox</h4>
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -285,7 +284,9 @@
                             </div>
                             <div id="collapse12One" class="collapse show" aria-labelledby="collapse12HeadingOne" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                    <p>Dla osób planujących przekwalifikować się do pracy w branży IT, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
+                                    <a href="{{ route('project.it') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
+
                                 </div>
                             </div>
                         </div>
@@ -300,7 +301,8 @@
                             </div>
                             <div id="collapse12Two" class="collapse" aria-labelledby="collapse12HeadingTwo" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p class="mb-0">Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor. Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien.</p>
+                                    <p>Dla fizjoterapeutów i masażystów, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im dodatkowych kompetencji, znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem na najwyższym poziomie.</p>
+                                    <a href="{{ route('project.fizjo') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -308,85 +310,49 @@
                 </div>
             </div>
 
-            {{-- <hr class="solid my-5"> --}}
-
-
         </div>
 
 
+        {{-- Counter --}}
         <div class="container">
             <hr class="solid my-3">
-            <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Ścieżka IT</strong> w liczbach</h2>
+            <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Poprzednie projekty WORK-ON</strong> w liczbach</h2>
         </div>
         <section class="section section-primary border-top-0 mb-0">
             <div class="container">
                 <div class="row counters counters-sm counters-text-light">
                     <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="counter">
-                            <strong data-to="60" data-from="0">60</strong>
-                            <label class="opacity-5 text-4 mt-1">Uczestników i Uczestniczek</label>
+                            <strong data-to="6" data-from="0">6</strong>
+                            <label class="opacity-5 text-4 mt-1">Projektów</label>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="counter">
-                            <strong data-to="260" data-from="200" data-append="h">200</strong>
-                            <label class="opacity-5 text-4 mt-1">Szkoleń</label>
+                            <strong data-to="320" data-from="200" data-append="+">320</strong>
+                            <label class="opacity-5 text-4 mt-1">Uczestników i Uczestniczek</label>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
                         <div class="counter">
-                            <strong data-to="3400" data-from="3000" data-append="zł">3.400 </strong>
-                            <label class="opacity-5 text-4 mt-1">stypendium szkoleniowe</label>
+                            <strong data-to="100" data-from="50" data-append="+">100 </strong>
+                            <label class="opacity-5 text-4 mt-1">współpracujących firm</label>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="counter">
-                            <strong data-to="2000" data-from="1000" data-append="zł/mies.">2.000 </strong>
-                            <label class="opacity-5 text-4 mt-1">stypendium stażowe</label>
+                            <strong data-to="75" data-from="25" data-append="%">75 </strong>
+                            <label class="opacity-5 text-4 mt-1">wskaźnik zatrudnienia</label>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="container">
-            <hr class="solid my-3">
-            <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Ścieżka FIZJO</strong> w liczbach</h2>
-        </div>
-        <section class="section section-primary border-top-0 mb-0">
-            <div class="container">
-                <div class="row counters counters-sm counters-text-light">
-                    <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="counter">
-                            <strong data-to="48" data-from="0">48</strong>
-                            <label class="opacity-5 text-4 mt-1">Uczestników i Uczestniczek</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mb-5 mb-lg-0">
-                        <div class="counter">
-                            <strong data-to="116" data-from="100" data-append="h">100</strong>
-                            <label class="opacity-5 text-4 mt-1">Szkoleń</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3 mb-5 mb-sm-0">
-                        <div class="counter">
-                            <strong data-to="1500" data-from="1000" data-append="zł">1.500 </strong>
-                            <label class="opacity-5 text-4 mt-1">stypendium szkoleniowe</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="counter">
-                            <strong data-to="2000" data-from="1000" data-append="zł/mies.">2.000 </strong>
-                            <label class="opacity-5 text-4 mt-1">stypendium stażowe</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="container mb-0 pb-4">
+        {{-- Cytaty --}}
+        <div class="container mb-0">
             <div class="row mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
-                <div class="col-lg-6">
+                <div class="col">
                     <h2 class="font-weight-normal text-6 mb-4">Doświadczenie i <strong class="font-weight-extra-bold">skuteczność</strong></h2>
                     <div class="testimonial testimonial-primary">
                         <blockquote>
@@ -401,65 +367,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">What</strong> Client’s Say</h2>
+                {{-- <div class="col-lg-6">
+                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Co o nas</strong> mówią</h2>
                     <div class="row">
-                        <div class="owl-carousel owl-theme dots-title dots-title-pos-2 mb-0" data-plugin-options="{'items': 1, 'autoHeight': true}">
-                            <div>
+                        <div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 1, 'autoHeight': true}">
+
+                            <div class="col">
+                                <div class="testimonial testimonial-primary">
+                                    <blockquote>
+                                        <p class="mb-0">Jestem absolwentem projektu WORK-ON 6 z grupy Frontend Developer. Udział w projekcie umożliwił mi zdobycie cennego doświadczenia w branży IT. Swój staż odbyłem w firmie Wise People, przyjazne warunki umowy przyczyniły się do zatrudnienia mnie w roli młodszego programisty. W pracy zajmuję się tworzeniem aplikacji webowych w technologii React / Wordpress, a codzienne wyzwania sprawiają, że wciąż uczę się czegoś nowego. Polecam ten projekt młodym ludziom, którzy chcą stawiać swoje pierwsze kroki jako przyszli developerzy.</p>
+                                    </blockquote>
+                                    <div class="testimonial-arrow-down"></div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-author-thumbnail">
+                                            <img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
+                                        </div>
+                                        <p><strong>Sebastian</strong><span>Absolwent WORK-ON 6</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
                                 <div class="col">
                                     <div class="testimonial testimonial-primary">
                                         <blockquote>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
+                                            <p class="mb-0">Jestem absolwentem projektu WORK-ON 6 z grupy Frontend Developer. Udział w projekcie umożliwił mi zdobycie cennego doświadczenia w branży IT. Swój staż odbyłem w firmie Wise People, przyjazne warunki umowy przyczyniły się do zatrudnienia mnie w roli młodszego programisty. W pracy zajmuję się tworzeniem aplikacji webowych w technologii React / Wordpress, a codzienne wyzwania sprawiają, że wciąż uczę się czegoś nowego. Polecam ten projekt młodym ludziom, którzy chcą stawiać swoje pierwsze kroki jako przyszli developerzy.</p>
                                         </blockquote>
                                         <div class="testimonial-arrow-down"></div>
                                         <div class="testimonial-author">
                                             <div class="testimonial-author-thumbnail">
                                                 <img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
                                             </div>
-                                            <p><strong>John Doe</strong><span>Okler</span></p>
+                                            <p><strong>Sebastian</strong><span>Absolwent WORK-ON 6</span></p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
-                                <div class="col">
-                                    <div class="testimonial testimonial-primary">
-                                        <blockquote>
-                                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit vehicula est, in consequat.</p>
-                                        </blockquote>
-                                        <div class="testimonial-arrow-down"></div>
-                                        <div class="testimonial-author">
-                                            <div class="testimonial-author-thumbnail">
-                                                <img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
-                                            </div>
-                                            <p><strong>John Doe</strong><span>Okler</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
 
-        <section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer call-to-action-in-footer-margin-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-9 col-lg-9">
-                        <div class="call-to-action-content">
-                            <h2 class="font-weight-normal text-6 mb-0">Kwalifikujesz się do udziału w <strong class="font-weight-extra-bold">projekcie</strong> ?</h2>
-                            <p class="mb-0">Zapisz się już teraz, rekrutacja ograniczona czasowo.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-lg-3">
-                        <div class="call-to-action-btn">
-                            <a href="#" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Zapisz się teraz</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {{-- Call to action --}}
+        @include("includes.zapisz_sie")
+
     </div>
 
 @endsection
