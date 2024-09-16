@@ -8,8 +8,8 @@
 
 		<title>WORK-ON7 - Włącz się na lepszą pracę</title>
 
-		<meta name="keywords" content="Ośrodek Szkoleniowo-Wdrożeniowy" />
-		<meta name="description" content="Ośrodek Szkoleniowo-Wdrożeniowy">
+		<meta name="keywords" content="projekt, projekt unijny, efs, szkolenia, dofinansowane, aktywizacja zawodowa" />
+		<meta name="description" content="Projekt aktywizacji zawodowej finansowany z funduszy unijnych dla osób z woj. kujawsko-pomorskiego.">
 		<meta name="author" content="Ośrodek Szkoleniowo-Wdrożeniowy">
 
 		<!-- Favicon -->
