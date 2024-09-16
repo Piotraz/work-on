@@ -26,7 +26,7 @@
                 <div class="col">
 
                     <div class="alert alert-secondary text-center mb-4">
-                        <strong>Uwaga!</strong> Start rekrutacji 16 września 2024r.
+                        <strong>Uwaga!</strong> Start rekrutacji 23 września 2024r.
                     </div>
 
                     <div class="row text-center pb-5">
@@ -61,7 +61,7 @@
                                     <li><i class="fas fa-check"></i> pracujące na podstawie umowy cywilnoprawnej, np. umowy zlecenia (bez względu na wysokość wynagrodzenia).</li>
                                 </ul>
                                 <p class="mb-4">Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych umów lub zaświadczeń od pracodawcy.</p>
-                                <a href="regulamin_workon7.pdf" class="btn btn-modern btn-primary btn-outline">Regulamin projektu  <i class="fa-solid fa-cloud-arrow-down"></i></a>
+                                <a href="regulamin_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline">Regulamin projektu  <i class="fa-solid fa-cloud-arrow-down"></i></a>
                             </div>
                         </div>
                         {{-- 2 --}}
@@ -82,12 +82,16 @@
 
                                 <h4 class="font-weight-bold text-4">Terminy przyjmowania zgłoszeń:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-4">
-                                    <li><i class="fas fa-check"></i> Ścieżka IT edycja 1 - <strong>do 11 października 2024</strong></li>
-                                    <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 1 - <strong>do 29 listopada 2024</strong></li>
+                                    <li><i class="fas fa-check"></i> Ścieżka IT edycja 1 (30 osób) - <strong>do 17 października 2024 roku</strong></li>
+                                    <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 1 (24 osoby)- <strong>do 30 listopada 2024 roku</strong></li>
+                                    <li><i class="fas fa-check"></i> Ścieżka IT edycja 2 (30 osób) - <strong>rok 2025 (szczegóły wkrótce)</strong></li>
+                                    <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 2 (24 osoby)- <strong>rok 2025 (szczegóły wkrótce)</strong></li>
 
                                 </ul>
-                                <a href="#" class="btn btn-modern btn-primary btn-outline disabled">Formularz zgłoszeniowy PDF  <i class="fa-solid fa-cloud-arrow-down ms-1"></i></a>
-                                <a href="#" target="_blank" class="btn btn-modern btn-primary btn-outline disabled">Elektroniczny formularz zgłoszeniowy  <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="#" target="_blank" class="btn btn-modern btn-primary btn-outline disabled mb-3">Formularz zgłoszeniowy PDF  <i class="fa-solid fa-cloud-arrow-down ms-1"></i></a>
+                                <a href="#" target="_blank" class="btn btn-modern btn-primary btn-outline disabled mb-3">Formularz zgłoszeniowy ONLINE <i class="fas fa-external-link-alt ms-1"></i></a>
+
+                                <div class="alert alert-secondary text-center mb-4">Start rekrutacji 23 września 2024r.</div>
                             </div>
                         </div>
                         {{-- 3 --}}

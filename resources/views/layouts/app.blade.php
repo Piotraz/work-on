@@ -288,7 +288,7 @@
 								<nav id="sub-menu">
 									<ul>
 										<li><i class="fas fa-angle-right"></i> Designed by <a href="https://www.freepik.com" target="_blank" class="ms-1 text-decoration-none">Freepik</a></li>
-										<li><i class="fas fa-angle-right"></i><a href="#" class="ms-1 text-decoration-none"> Regulamin projektu</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="regulamin_workon7.pdf" target="_blank" class="ms-1 text-decoration-none"> Regulamin projektu</a></li>
 									</ul>
 								</nav>
 							</div>

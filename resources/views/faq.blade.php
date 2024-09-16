@@ -136,7 +136,7 @@
                                 <ul class="list list-icons list-icons-style-2 my-3">
                                     <li><i class="fas fa-check"></i> Test znajomości języka angielskiego (ścieżka IT):</li>
                                 </ul>
-                                <p>Pytania zamknięte. Test na poziomie A2. Trochę gramatyki trzeba pamiętać, albo sobie powtórzyć. Uwaga! Test punktowany podwójnie.</p>
+                                <p>Pytania zamknięte. Test na poziomie A2. Trochę gramatyki trzeba pamiętać, albo sobie powtórzyć.</p>
 
                                 <ul class="list list-icons list-icons-style-2 my-3">
                                     <li><i class="fas fa-check"></i> Test wiedzy z anatomii i fizjologii człowieka (ścieżka FIZJO):</li>

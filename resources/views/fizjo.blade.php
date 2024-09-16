@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-12 align-self-center p-static order-2 text-center">
                         <h1 class="font-weight-bold text-dark">Ścieżka FIZJO</h1>
-                        <span class="sub-title text-dark"><strong>Rekrutacja do 29 listopada 2024</strong></span>
+                        <span class="sub-title text-dark"><strong>Rekrutacja do 30 listopada 2024</strong></span>
                     </div>
                     <div class="col-md-12 align-self-center order-1 mb-3">
                         <ul class="breadcrumb d-block text-center">
@@ -52,7 +52,7 @@
                     <h3 class="font-weight-bold text-4 mb-2">Kto może uczestniczyć ?</h3>
                     <p>Fizjoterapeuci i masażyści, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im dodatkowych kompetencji, znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem na najwyższym poziomie.</p>
                     <p>Osoby, które na co dzień pracują z pacjentem lub takie, które jeszcze nie pracują w zawodzie albo są w trakcie studiów lub bezpośrednio po ich zakończeniu.</p>
-                    <p>Każda osoba posiadająca podstawową wiedzę z anatomii i fizjologii człowieka. Reszty nauczymy Ciebie na szkoleniach “krok po kroku”.</p>
+                    <p>Wystarczy, że posiadasz podstawową wiedzę z anatomii i fizjologii człowieka - reszty nauczymy Ciebie na szkoleniach "krok po kroku".</p>
                     <p>Formalnie, grupę docelową stanowią osoby dorosłe, mieszkające lub pracujące na terenie woj. kujawsko-pomorskiego. <strong>NIE ma górnej granicy wieku!</strong> Wsparciem możemy objąć tylko <strong>osoby pracujące</strong> w trudnej sytuacji na rynku pracy.</p>
                     <a href="#dlakogo" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
@@ -128,7 +128,7 @@
                                 <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
                                 <p class="mb-0">Staż w wymiarze 3 miesięcy na stanowisku zgodnym z Twoim profilem zawodowym, to szansa na zdobycie lub uzupełnienie niezbędnego doświadczenia zawodowego. Dobrze wykorzystany czas na stażu to gwarancja nabycia praktycznych umiejętności w zakresie wykonywania danego zawodu.</p>
                                 <p class="mb-0">Za udział w stażu możemy zapłacić Tobie około 2000 zł miesięcznie.</p>
-                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w staż w wymiarze pełenego etatu lub po prostu nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
+                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w staż w wymiarze pełnego etatu lub po prostu nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
                             </div>
                         </div>
                         <div class="feature-box feature-box-style-2">
@@ -138,7 +138,7 @@
                             <div class="feature-box-info">
                                 <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
                                 <p class="mb-0">Indywidualne spotkania z pośrednikiem pracy na koniec Twojego udziału w projekcie.</p>
-                                <p class="mb-4">Nasz pośrednik pomoże Tobie znaleźć lepszą pracę. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie Tobie jak zawalczyć o awansu lub podwyżkę wynagrodzenia.</p>
+                                <p class="mb-4">Nasz pośrednik pomoże Tobie znaleźć lepszą pracę. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie Tobie jak zawalczyć o awans lub podwyżkę wynagrodzenia.</p>
                             </div>
                         </div>
                         <div class="feature-box feature-box-style-2">

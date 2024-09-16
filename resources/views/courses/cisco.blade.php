@@ -67,7 +67,7 @@
                         <li><i class="fas fa-check"></i> IT Support Specialist</li>
                         <li><i class="fas fa-check"></i> Help Desk Technician</li>
                     </ul>
-                    <p>Kompetencje dostarczone w trakcie kursu są bardzo poszukiwane na runku pracy, zatem solidna realizacja kursu oraz dobra znajomość języka angielskiego dają gwarancję zatrudnienia. </p>
+                    <p>Kompetencje dostarczone w trakcie szkolenia są bardzo poszukiwane na runku pracy, zatem solidna realizacja kursu oraz dobra znajomość języka angielskiego dają gwarancję zatrudnienia. </p>
 
                 </div>
 

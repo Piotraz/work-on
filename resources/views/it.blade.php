@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-12 align-self-center p-static order-2 text-center">
                         <h1 class="font-weight-bold text-dark">Ścieżka IT</h1>
-                        <span class="sub-title text-dark"><strong>Rekrutacja do 11 października 2024</strong></span>
+                        <span class="sub-title text-dark"><strong>Rekrutacja do 17 października 2024</strong></span>
                     </div>
                     <div class="col-md-12 align-self-center order-1 mb-3">
                         <ul class="breadcrumb d-block text-center">
@@ -148,7 +148,7 @@
                                 <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
                                 <p class="mb-0">Staż w wymiarze 3 miesięcy na stanowisku zgodnym z Twoim profilem zawodowym, to szansa na zdobycie lub uzupełnienie niezbędnego doświadczenia zawodowego. Dobrze wykorzystany czas na stażu to gwarancja nabycia praktycznych umiejętności w zakresie wykonywania danego zawodu.</p>
                                 <p class="mb-0">Za udział w stażu możemy zapłacić Tobie około 2000 zł miesięcznie.</p>
-                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w staż w wymiarze pełenego etatu lub po prostu nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
+                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w staż w wymiarze pełnego etatu lub po prostu nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
                             </div>
                         </div>
                         <div class="feature-box feature-box-style-2">
@@ -158,7 +158,7 @@
                             <div class="feature-box-info">
                                 <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
                                 <p class="mb-0">Indywidualne spotkania z pośrednikiem pracy na koniec Twojego udziału w projekcie.</p>
-                                <p class="mb-4">Nasz pośrednik pomoże Tobie znaleźć lepszą pracę. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie Tobie jak zawalczyć o awansu lub podwyżkę wynagrodzenia.</p>
+                                <p class="mb-4">Nasz pośrednik pomoże Tobie znaleźć lepszą pracę. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie Tobie jak zawalczyć o awans lub podwyżkę wynagrodzenia.</p>
                             </div>
                         </div>
                         <div class="feature-box feature-box-style-2">

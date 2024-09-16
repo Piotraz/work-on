@@ -69,12 +69,12 @@
                     <ul class="list list-icons list-icons-style-2 mb-3">
                         <li><i class="fas fa-check"></i>RockTape – FMT Basic – część podstawowa</li>
                     </ul>
-                    <p>Ta część szkolenia stanowi idealny wstęp do naszej koncepcji i podstaw teoretycznych związanych z tapingiem. Kurs podstawowy FMT ma na celu przedstawienie wielu technik tapingu oraz samej koncepcji na której się opierają. To szkolenie wyposaża uczestników w umiejętności i zrozumienie podstaw teoretycznych.</p>
+                    <p>Ta część szkolenia stanowi idealny wstęp do poznania koncepcji i podstaw teoretycznych związanych z tapingiem. Kurs podstawowy FMT ma na celu przedstawienie wielu technik tapingu oraz samej koncepcji na której się opierają.</p>
 
                     <ul class="list list-icons list-icons-style-2 mb-3">
                         <li><i class="fas fa-check"></i>RockTape – FMT Advanced – część zaawansowana</li>
                     </ul>
-                    <p>Po tej części szkolenia Twój sposób tapowania wejdzie zdecydowanie na wyższy poziom. Dzień drugi rozjaśni i poszerzy wiedzę z zakresu Taping redukującego objawy oraz Tapingu związanego z kontrolą posturalną omawianego podczas pierwszego dnia oraz przedstawi ekscytujące nowe techniki takie jak "Tweak Taping" dla poszerzenia i wydłużenia efektów terapii manualnej. Dodatkowo zostanie omówiony unikalny screening ruchu oraz aplikacje "Power Taping".</p>
+                    <p>Po tej części szkolenia Twój sposób tapowania wejdzie zdecydowanie na wyższy poziom. Dzień drugi rozjaśni i poszerzy wiedzę z zakresu Tapingu redukującego objawy oraz Tapingu związanego z kontrolą posturalną omawianego podczas pierwszego dnia oraz przedstawi ekscytujące nowe techniki takie jak "Tweak Taping" dla poszerzenia i wydłużenia efektów terapii manualnej. Dodatkowo zostanie omówiony unikalny screening ruchu oraz aplikacje "Power Taping".</p>
 
                     <p>Zajęcia odbywać się będą w grupach 24-osobowych. Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
                     <p>Szkolenia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>

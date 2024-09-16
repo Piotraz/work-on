@@ -57,7 +57,7 @@
                         <li><i class="fas fa-check"></i> Wordpress i WooCommerce</li>
                         <li><i class="fas fa-check"></i> Narzędzia developerskie i Git</li>
                         <li><i class="fas fa-check"></i> Metodyka Scrum</li>
-                        <li><i class="fas fa-check"></i> Tworzenie projektu i własnej strony/aplikacji internetowej</li>
+                        <li><i class="fas fa-check"></i> Tworzenie projektu własnej strony/aplikacji internetowej</li>
                     </ul>
                     <p>Tworzenie stron internetowych to dziedzina bardzo praktyczna i wymagająca ciągłej nauki, dlatego zajęcia prowadzić będą praktycy, którzy pokażą Tobie jak radzić sobie w świecie webdevelopera.</p>
                     <p>Bardzo ważnym elementem programu szkolenia jest blok poświęcony na stworzenie projektu strony bądź aplikacji internetowej w metodyce Scrum. W grupach 3-4 osobowych, pod opieką trenera, będziesz tworzyć realny produkt, którym będzie można pochwalić się przed przyszłym pracodawcą.</p>
