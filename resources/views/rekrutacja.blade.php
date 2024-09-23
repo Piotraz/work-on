@@ -25,9 +25,9 @@
             <div class="row">
                 <div class="col">
 
-                    <div class="alert alert-secondary text-center mb-4">
+                    {{-- <div class="alert alert-secondary text-center mb-4">
                         <strong>Uwaga!</strong> Start rekrutacji 23 września 2024r.
-                    </div>
+                    </div> --}}
 
                     <div class="row text-center pb-5">
                         <div class="col-md-9 mx-md-auto">
@@ -50,7 +50,7 @@
                             </div>
                             <div class="process-step-content">
                                 <h4 class="mb-3 text-4-5 font-weight-bold">Kryteria formalne</h4>
-                                <p>Dokładnie zapoznaj się z <a href="regulamin_workon7.pdf" target="_blank">Regulaminem projektu</a>, w którym szczegółowo opisane są warunki rekrutacji oraz możliwości, jakie daje udział w projekcie WORK-ON. Dokładnie opisano też grupę docelową osób, które mogą wziąć udział w projekcie, a także punktację przy rekrutacji.</p>
+                                <p>Dokładnie zapoznaj się z <a href="documents/regulamin_workon7.pdf" target="_blank">Regulaminem projektu</a>, w którym szczegółowo opisane są warunki rekrutacji oraz możliwości, jakie daje udział w projekcie WORK-ON. Dokładnie opisano też grupę docelową osób, które mogą wziąć udział w projekcie, a także punktację przy rekrutacji.</p>
                                 <h4 class="font-weight-bold text-4"> Kto może wziąć udział w projekcie:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
                                     <li><i class="fas fa-check"></i> Osoby zamieszkujące na terenie woj. kujawsko-pomorskiego w rozumieniu przepisów Kodeksu Cywilnego lub</li>
@@ -61,7 +61,7 @@
                                     <li><i class="fas fa-check"></i> pracujące na podstawie umowy cywilnoprawnej, np. umowy zlecenia (bez względu na wysokość wynagrodzenia).</li>
                                 </ul>
                                 <p class="mb-4">Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych umów lub zaświadczeń od pracodawcy.</p>
-                                <a href="regulamin_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline">Regulamin projektu  <i class="fa-solid fa-cloud-arrow-down"></i></a>
+                                <a href="documents/regulamin_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline">Regulamin projektu  <i class="fa-solid fa-cloud-arrow-down"></i></a>
                             </div>
                         </div>
                         {{-- 2 --}}
@@ -88,10 +88,10 @@
                                     <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 2 (24 osoby)- <strong>rok 2025 (szczegóły wkrótce)</strong></li>
 
                                 </ul>
-                                <a href="#" target="_blank" class="btn btn-modern btn-primary btn-outline disabled mb-3">Formularz zgłoszeniowy PDF  <i class="fa-solid fa-cloud-arrow-down ms-1"></i></a>
-                                <a href="#" target="_blank" class="btn btn-modern btn-primary btn-outline disabled mb-3">Formularz zgłoszeniowy ONLINE <i class="fas fa-external-link-alt ms-1"></i></a>
+                                <a href="documents/formularz_zgloszeniowy_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline mb-3">Formularz zgłoszeniowy PDF  <i class="fa-solid fa-cloud-arrow-down ms-1"></i></a>
+                                <a href="https://forms.gle/fHNVESxRsPtXLZuBA" target="_blank" class="btn btn-modern btn-primary btn-outline mb-3">Formularz zgłoszeniowy ONLINE <i class="fas fa-external-link-alt ms-1"></i></a>
 
-                                <div class="alert alert-secondary text-center mb-4">Start rekrutacji 23 września 2024r.</div>
+                                {{-- <div class="alert alert-secondary text-center mb-4">Start rekrutacji 23 września 2024r.</div> --}}
                             </div>
                         </div>
                         {{-- 3 --}}

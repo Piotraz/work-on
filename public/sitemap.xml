@@ -73,10 +73,14 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://work-on.pl/regulamin_workon7.pdf</loc>
+  <loc>https://work-on.pl/documents/regulamin_workon7.pdf</loc>
   <lastmod>2024-09-16T18:38:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://work-on.pl/documents/formularz_zgloszeniowy_workon7.pdf</loc>
+  <lastmod>2024-09-16T18:38:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 </urlset>
