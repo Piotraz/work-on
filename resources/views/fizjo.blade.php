@@ -157,7 +157,7 @@
             </div>
         </section>
 
-        {{-- Ścieżka IT w liczbach --}}
+        {{-- Ścieżka FIZJO w liczbach --}}
         <div class="container">
             <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Ścieżka FIZJO</strong> w liczbach</h2>
         </div>
@@ -184,8 +184,8 @@
                     </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="counter">
-                            <strong data-to="2000" data-from="1000" data-append="zł">2.000 </strong>
-                            <label class="opacity-5 text-4 mt-1">stypendium stażowe<br>za miesiąc</label>
+                            <strong data-to="3" data-from="1" data-append="-mies.">3 </strong>
+                            <label class="opacity-5 text-4 mt-1">staż zawodowy</label>
                         </div>
                     </div>
                 </div>
