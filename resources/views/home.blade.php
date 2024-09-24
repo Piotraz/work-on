@@ -134,7 +134,7 @@
                     <p class="lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
                         Projekt <span class="text-primary font-weight-bold alternative-font-2">WORK-ON 7</span> to kompleksowe wsparcie w zdobyciu nowego, lepszego zatrudnienia.
                     </p>
-                    <p>Dzięki funduszam unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <span class="text-primary font-weight-bold alternative-font-2">Zainwestuj w siebie i dołącz do naszego projektu</span>.</p>
+                    <p>Dzięki funduszom unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <span class="text-primary font-weight-bold alternative-font-2">Zainwestuj w siebie i dołącz do naszego projektu</span>.</p>
                 </div>
             </div>
 
