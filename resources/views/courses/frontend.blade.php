@@ -53,7 +53,7 @@
                     <h2 class="text-color-dark font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">Program</strong> kursu</h2>
                     <ul class="list list-icons list-icons-style-2 mb-3">
                         <li><i class="fas fa-check"></i> HTML i CSS</li>
-                        <li><i class="fas fa-check"></i> Javascript (JS) i Raect.js</li>
+                        <li><i class="fas fa-check"></i> Javascript (JS)</li>
                         <li><i class="fas fa-check"></i> Wordpress i WooCommerce</li>
                         <li><i class="fas fa-check"></i> Narzędzia developerskie i Git</li>
                         <li><i class="fas fa-check"></i> Metodyka Scrum</li>
@@ -86,7 +86,6 @@
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">HTML</span>
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">CSS</span>
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">JS</span>
-                            <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">React.js</span>
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">WordPress</span>
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">WooCommerce</span>
                             <span class="badge badge-dark badge-sm rounded-pill px-2 py-1 ms-1">Git</span>
