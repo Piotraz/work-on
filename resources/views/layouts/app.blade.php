@@ -77,6 +77,7 @@
             src="https://www.facebook.com/tr?id=1741843062695989&ev=PageView&noscript=1"
             /></noscript>
             <!-- End Meta Pixel Code -->
+
 	</head>
 	<body data-plugin-page-transition>
 
@@ -183,6 +184,7 @@
 										</div>
 										<ul class="header-social-icons social-icons d-none d-sm-block">
 											<li class="social-icons-facebook"><a href="https://www.facebook.com/workonacademy" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="social-icons-instagram ms-1"><a href="https://www.instagram.com/projekt_work_on/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 										</ul>
 										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
 											<i class="fas fa-bars"></i>
@@ -285,11 +287,14 @@
 								<ul class="list list-icons list-icons-lg">
 									<li class="mb-1"><i class="far fa-building text-color-primary"></i><p class="m-0">Ośrodek Szkoleniowo-Wdrożeniowy</p></li>
 									<li class="mb-1"><i class="fas fa-map-marker-alt text-color-primary"></i><p class="m-0"><a href="https://maps.app.goo.gl/FxffK1gPzPAoCHwg7" target="_blank">ul. Piotrowskiego 11/36,<br>85-098 Bydgoszcz</a></p></li>
-									<li class="mb-1"><i class="fab fa-whatsapp text-color-primary"></i><p class="m-0"><a href="tel:+48509705517">(+48) 509 705 517</a></p></li>
+									<li class="mb-1"><i class="fa-solid fa-phone text-color-primary"></i><p class="m-0"><a href="tel:+48509705517">(+48) 509 705 517</a></p></li>
 									<li class="mb-1"><i class="far fa-envelope text-color-primary"></i><p class="m-0"><a href="mailto:projekt@work-on.pl">projekt@work-on.pl</a></p></li>
 								</ul>
                                 <ul class="social-icons">
-                                    <li class="social-icons-facebook"><a href="https://www.facebook.com/workonacademy" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-icons-envelope"><a href="tel:+48509705517" target="_blank" title="Zadzwoń"><i class="fa-solid fa-phone"></i></a></li>
+                                    <li class="social-icons-envelope ms-1"><a href="mailto:projekt@work-on.pl" target="_blank" title="Napisz do nas"><i class="fas fa-envelope"></i></a></li>
+                                    <li class="social-icons-facebook ms-1"><a href="https://www.facebook.com/workonacademy" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="social-icons-instagram ms-1"><a href="https://www.instagram.com/projekt_work_on/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
 							</div>
 						</div>
@@ -300,7 +305,7 @@
 						<div class="row py-4">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="https://www.osw.bydgoszcz.pl/" target="_blank" class="logo pe-0 pe-lg-3">
-									<img alt="Porto Website Template" src="{{ asset('img/logo-footer-osw.png') }}" class="opacity-5" height="22" data-plugin-options="{'appearEffect': 'fadeIn'}">
+									<img alt="Logo OSW" src="{{ asset('img/logo-footer-osw.png') }}" class="opacity-5" height="22" data-plugin-options="{'appearEffect': 'fadeIn'}">
 								</a>
 							</div>
 							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">

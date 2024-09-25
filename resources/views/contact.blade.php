@@ -26,7 +26,7 @@
 
                 <div class="feature-box feature-box-style-3">
                     <div class="feature-box-icon">
-                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-user-group"></i>
                     </div>
                     <div class="feature-box-info">
                         <h4 class="mb-2">Zapraszamy do kontaktu</h4>

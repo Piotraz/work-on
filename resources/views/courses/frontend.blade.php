@@ -53,7 +53,7 @@
                     <h2 class="text-color-dark font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">Program</strong> kursu</h2>
                     <ul class="list list-icons list-icons-style-2 mb-3">
                         <li><i class="fas fa-check"></i> HTML i CSS</li>
-                        <li><i class="fas fa-check"></i> Javascript (JS)</li>
+                        <li><i class="fas fa-check"></i> Javascript (JS) + wybrany framework</li>
                         <li><i class="fas fa-check"></i> Wordpress i WooCommerce</li>
                         <li><i class="fas fa-check"></i> Narzędzia developerskie i Git</li>
                         <li><i class="fas fa-check"></i> Metodyka Scrum</li>

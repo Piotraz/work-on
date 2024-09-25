@@ -1,0 +1,7 @@
+.social-icons li:hover.social-icons-instagram a {
+	background: #8a3ab9 !important;
+}
+
+.social-icons li:hover.social-icons-envelope a {
+	background: #000000 !important;
+}
