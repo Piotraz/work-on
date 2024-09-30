@@ -25,10 +25,6 @@
             <div class="row">
                 <div class="col">
 
-                    {{-- <div class="alert alert-secondary text-center mb-4">
-                        <strong>Uwaga!</strong> Start rekrutacji 23 września 2024r.
-                    </div> --}}
-
                     <div class="row text-center pb-5">
                         <div class="col-md-9 mx-md-auto">
                             <div class="overflow-hidden mb-3">
