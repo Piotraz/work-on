@@ -294,10 +294,8 @@
                 <div class="col-md-6">
                     <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Okiem</strong> kamery</h2>
 
-                    <div>
-                        <video width="100%" height="100%" controls muted loop preload="metadata">
-                                <source src="{{ asset('video/spot_workon6.mp4') }}" type="video/mp4">
-                        </video>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/NjRMq4KT5XQ?si=E9XDznRunTEeDvp2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                     <p>Wystąpili uczestnicy i trenerzy projektu WORK-ON 6.<br><strong>Dziękujemy za współpracę.</strong></p>
 
