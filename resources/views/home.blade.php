@@ -352,7 +352,7 @@
         {{-- Cytaty --}}
         <div class="container mb-0">
             <div class="row mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
-                <div class="col">
+                <div class="col-md-6">
                     <h2 class="font-weight-normal text-6 mb-4">Doświadczenie i <strong class="font-weight-extra-bold">skuteczność</strong></h2>
                     <div class="testimonial testimonial-primary">
                         <blockquote>
@@ -367,44 +367,17 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="col-lg-6">
-                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Co o nas</strong> mówią</h2>
-                    <div class="row">
-                        <div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 1, 'autoHeight': true}">
+                <div class="col-md-6">
+                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Okiem</strong> kamery</h2>
 
-                            <div class="col">
-                                <div class="testimonial testimonial-primary">
-                                    <blockquote>
-                                        <p class="mb-0">Jestem absolwentem projektu WORK-ON 6 z grupy Frontend Developer. Udział w projekcie umożliwił mi zdobycie cennego doświadczenia w branży IT. Swój staż odbyłem w firmie Wise People, przyjazne warunki umowy przyczyniły się do zatrudnienia mnie w roli młodszego programisty. W pracy zajmuję się tworzeniem aplikacji webowych w technologii React / Wordpress, a codzienne wyzwania sprawiają, że wciąż uczę się czegoś nowego. Polecam ten projekt młodym ludziom, którzy chcą stawiać swoje pierwsze kroki jako przyszli developerzy.</p>
-                                    </blockquote>
-                                    <div class="testimonial-arrow-down"></div>
-                                    <div class="testimonial-author">
-                                        <div class="testimonial-author-thumbnail">
-                                            <img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
-                                        </div>
-                                        <p><strong>Sebastian</strong><span>Absolwent WORK-ON 6</span></p>
-                                    </div>
-                                </div>
-                            </div>
-
-                                <div class="col">
-                                    <div class="testimonial testimonial-primary">
-                                        <blockquote>
-                                            <p class="mb-0">Jestem absolwentem projektu WORK-ON 6 z grupy Frontend Developer. Udział w projekcie umożliwił mi zdobycie cennego doświadczenia w branży IT. Swój staż odbyłem w firmie Wise People, przyjazne warunki umowy przyczyniły się do zatrudnienia mnie w roli młodszego programisty. W pracy zajmuję się tworzeniem aplikacji webowych w technologii React / Wordpress, a codzienne wyzwania sprawiają, że wciąż uczę się czegoś nowego. Polecam ten projekt młodym ludziom, którzy chcą stawiać swoje pierwsze kroki jako przyszli developerzy.</p>
-                                        </blockquote>
-                                        <div class="testimonial-arrow-down"></div>
-                                        <div class="testimonial-author">
-                                            <div class="testimonial-author-thumbnail">
-                                                <img src="img/clients/client-1.jpg" class="rounded-circle" alt="" />
-                                            </div>
-                                            <p><strong>Sebastian</strong><span>Absolwent WORK-ON 6</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                        </div>
+                    <div>
+                        <video width="100%" height="100%" controls muted loop preload="metadata">
+                                <source src="{{ asset('video/spot_workon6.mp4') }}" type="video/mp4">
+                        </video>
                     </div>
-                </div> --}}
+                    <p>Wystąpili uczestnicy i trenerzy projektu WORK-ON 6.<br><strong>Dziękujemy za współpracę.</strong></p>
+
+                </div>
             </div>
         </div>
 

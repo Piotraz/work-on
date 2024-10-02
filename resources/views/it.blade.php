@@ -218,6 +218,94 @@
         {{-- Kto może wziąć udzał --}}
         @include("includes.grupa_docelowa")
 
+        {{-- Cytaty --}}
+        <div class="container mb-0">
+            <div class="row mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
+
+                <div class="col-md-6">
+                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Co o nas</strong> mówią</h2>
+                    <div class="row">
+                        <div class="owl-carousel owl-theme mb-0" data-plugin-options="{'items': 1, 'autoHeight': true}">
+
+                            <div class="col">
+                                <div class="testimonial testimonial-primary">
+                                    <blockquote>
+                                        <p class="mb-0">Nie byłem daleko od webdeveloperki, ale brakowało mi doświadczania. Dzięki projektowi mogłem pokazać swoje umiejętności na stażu w uznanej agencji interaktywnej, co zaowocowało dobrze płatnym zatrudnieniem.</p>
+                                    </blockquote>
+                                    <div class="testimonial-arrow-down"></div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-author-thumbnail">
+                                            <img src="{{ asset('img/mateusz.webp') }}" class="rounded-circle" alt="Zdjęcie profilowe" />
+                                        </div>
+                                        <p><strong>Mateusz</strong><span>Absolwent</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="testimonial testimonial-primary">
+                                    <blockquote>
+                                        <p class="mb-0">Wyłączyłam nudę! Włączyłam się na pracę w e-marketingu. Mój udział w projekcie WORK-ON to zupełny przypadek, o naborze dowiedziałam się przeglądając oferty pracy w internecie. Ukończyłam szkolenie, zdobyłam nowy zawód i otworzyło się przede mną więcej możliwości rozwoju kariery zawodowej.</p>
+                                    </blockquote>
+                                    <div class="testimonial-arrow-down"></div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-author-thumbnail">
+                                            <img src="{{ asset('img/monika.webp') }}" class="rounded-circle" alt="Zdjęcie profilowe" />
+                                        </div>
+                                        <p><strong>Monika</strong><span>Absolwentka</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="testimonial testimonial-primary">
+                                    <blockquote>
+                                        <p class="mb-0">Nie miałem sprecyzowanych planów na karierę zawodową, myślałem o projektowaniu gier... ułożyło się inaczej i nie żaluję. Na stażu byłem w firmie programistycznej i teraz pracuję jako programista. Wszystkim niezdecydowanym polecam udział w projekcie.</p>
+                                    </blockquote>
+                                    <div class="testimonial-arrow-down"></div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-author-thumbnail">
+                                            <img src="{{ asset('img/erwin.webp') }}" class="rounded-circle" alt="Zdjęcie profilowe" />
+                                        </div>
+                                        <p><strong>Erwin</strong><span>Absolwent</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="testimonial testimonial-primary">
+                                    <blockquote>
+                                        <p class="mb-0">Bez ryzyka nie ma zabawy! Dlatego porzuciłem pracę na etacie, aby wziąć udział w projekcie WORK-ON. Opłaciło się, ponieważ zdobyłem nowy zawód i poznałem ciekawych ludzi. Po stażu zacząłem pracę jako Creative Graphic Designer. To była dobra decyzja!</p>
+                                    </blockquote>
+                                    <div class="testimonial-arrow-down"></div>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-author-thumbnail">
+                                            <img src="{{ asset('img/mikolaj.webp') }}" class="rounded-circle" alt="Zdjęcie profilowe" />
+                                        </div>
+                                        <p><strong>Mikołaj</strong><span>Absolwent</span></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Okiem</strong> kamery</h2>
+
+                    <div>
+                        <video width="100%" height="100%" controls muted loop preload="metadata">
+                                <source src="{{ asset('video/spot_workon6.mp4') }}" type="video/mp4">
+                        </video>
+                    </div>
+                    <p>Wystąpili uczestnicy i trenerzy projektu WORK-ON 6.<br><strong>Dziękujemy za współpracę.</strong></p>
+
+                </div>
+
+            </div>
+        </div>
+
         {{-- Call to action --}}
         @include("includes.zapisz_sie")
 
