@@ -49,9 +49,9 @@
                                 <p>Dokładnie zapoznaj się z <a href="documents/regulamin_workon7.pdf" target="_blank">Regulaminem projektu</a>, w którym szczegółowo opisane są warunki rekrutacji oraz możliwości, jakie daje udział w projekcie WORK-ON. Dokładnie opisano też grupę docelową osób, które mogą wziąć udział w projekcie, a także punktację przy rekrutacji.</p>
                                 <h4 class="font-weight-bold text-4"> Kto może wziąć udział w projekcie:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
-                                    <li><i class="fas fa-check"></i> Osoby zamieszkujące na terenie woj. kujawsko-pomorskiego w rozumieniu przepisów Kodeksu Cywilnego lub</li>
+                                    <li><i class="fas fa-check"></i> Osoby mieszkające w <mark class="text-white bg-color-primary">woj. kujawsko-pomorskiem</mark> w rozumieniu przepisów Kodeksu Cywilnego lub</li>
                                     <li><i class="fas fa-check"></i> pracujące na terenie woj. kujawsko-pomorskiego.</li>
-                                    <li><i class="fas fa-check"></i> Osoby zatrudnione na umowę o pracę na kwotę nie przekraczającą minimalnego wynagrodzenia -  aktualnie 4300 zł brutto (bez względu na wymiar czasu pracy) lub</li>
+                                    <li><i class="fas fa-check"></i> <mark class="text-white bg-color-primary">Osoby zatrudnione</mark> na umowę o pracę na kwotę nie przekraczającą minimalnego wynagrodzenia - aktualnie 4300 zł brutto (bez względu na wymiar czasu pracy) lub</li>
                                     <li><i class="fas fa-check"></i> zatrudnione na umowę o pracę na czas określony nie dłuższy niż 6 miesięcy (bez względu na wysokość wynagrodzenia) lub</li>
                                     <li><i class="fas fa-check"></i> zatrudnione na umowę o pracę na czas określony, która skończy się w trakcie realizacji projektu (bez względu na wysokość wynagrodzenia) lub</li>
                                     <li><i class="fas fa-check"></i> pracujące na podstawie umowy cywilnoprawnej, np. umowy zlecenia (bez względu na wysokość wynagrodzenia).</li>

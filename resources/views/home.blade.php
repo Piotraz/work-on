@@ -134,7 +134,7 @@
                     <p class="lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
                         Projekt <span class="text-primary font-weight-bold alternative-font-2">WORK-ON 7</span> to kompleksowe wsparcie w zdobyciu nowego, lepszego zatrudnienia.
                     </p>
-                    <p>Dzięki funduszom unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <span class="text-primary font-weight-bold alternative-font-2">Zainwestuj w siebie i dołącz do naszego projektu</span>.</p>
+                    <p>Dzięki funduszom unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <mark class="text-white bg-color-primary">Zainwestuj w siebie i dołącz do naszego projektu</mark>.</p>
                 </div>
             </div>
 
@@ -284,7 +284,7 @@
                             </div>
                             <div id="collapse12One" class="collapse show" aria-labelledby="collapse12HeadingOne" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p>Dla osób planujących przekwalifikować się do pracy w branży IT, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
+                                    <p><mark class="text-white bg-color-primary">Dla osób planujących przekwalifikować się do pracy w branży IT</mark>, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
                                     <a href="{{ route('project.it') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
 
                                 </div>
@@ -301,7 +301,7 @@
                             </div>
                             <div id="collapse12Two" class="collapse" aria-labelledby="collapse12HeadingTwo" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p>Dla fizjoterapeutów i masażystów, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im dodatkowych kompetencji, znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem na najwyższym poziomie.</p>
+                                    <p><mark class="text-white bg-color-primary">Dla fizjoterapeutów i masażystów</mark>, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im dodatkowych kompetencji, znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem na najwyższym poziomie.</p>
                                     <a href="{{ route('project.fizjo') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
@@ -312,11 +312,76 @@
 
         </div>
 
+        {{-- Co wybierasz ? --}}
+        <section class="section section-height-1 bg-color-grey m-0 border-0 mb-3">
+            <div class="container py-4">
+                <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Którą ścieżką</strong> idziesz?</h2>
+
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="portfolio-item">
+                            <a href="{{ route('project.it') }}" aria-label="">
+                                <span class="thumb-info thumb-info-lighten thumb-info-no-borders border-radius-0">
+                                    <span class="thumb-info-wrapper border-radius-0">
+                                        <img src="{{ asset('img/project-home-4-1.jpg') }}" class="img-fluid border-radius-0" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Ścieżka IT</span>
+                                            <span class="thumb-info-type">Włącz się do pracy w branży IT</span>
+                                        </span>
+                                        <span class="thumb-info-action">
+                                            <span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="portfolio-item">
+                            <a href="{{ route('project.fizjo') }}" aria-label="">
+                                <span class="thumb-info thumb-info-lighten thumb-info-no-borders border-radius-0">
+                                    <span class="thumb-info-wrapper border-radius-0">
+                                        <img src="{{ asset('img/project-home-4-2.jpg') }}" class="img-fluid border-radius-0" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Ścieżka FIZJO</span>
+                                            <span class="thumb-info-type">Wejdź na wyższy poziom</span>
+                                        </span>
+                                        <span class="thumb-info-action">
+                                            <span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                        <div class="portfolio-item">
+                            <a href="{{ route('rekrutacja') }}" aria-label="">
+                                <span class="thumb-info thumb-info-lighten thumb-info-no-borders border-radius-0">
+                                    <span class="thumb-info-wrapper border-radius-0">
+                                        <img src="{{ asset('img/rekrutacja-rect.jpg') }}" class="img-fluid border-radius-0" alt="">
+                                        <span class="thumb-info-title">
+                                            <span class="thumb-info-inner">Dołącz do nas</span>
+                                            <span class="thumb-info-type">Zapisz się to projektu</span>
+                                        </span>
+                                        <span class="thumb-info-action">
+                                            <span class="thumb-info-action-icon bg-dark opacity-8"><i class="fas fa-plus"></i></span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
         {{-- Counter --}}
-        <div class="container">
-            <hr class="solid my-3">
-            <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Poprzednie projekty WORK-ON</strong> w liczbach</h2>
+        <div class="container pt-3">
+            {{-- <hr class="solid my-3"> --}}
+            <h2 class="font-weight-normal text-7"><strong class="font-weight-extra-bold">Poprzednie WORK-ONy</strong> w liczbach</h2>
         </div>
         <section class="section section-primary border-top-0 mb-0">
             <div class="container">

@@ -89,9 +89,9 @@
         </div>
 
         {{-- Powiązane szkolenia --}}
-        <section class="section section-height-3 bg-color-grey m-0 border-0">
+        <section class="section section-height-1 bg-color-grey m-0 border-0">
             <div class="container py-4">
-                <h4 class="mb-3 text-4 text-uppercase">Powiązane <strong class="font-weight-extra-bold">szkolenia</strong></h4>
+                <h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Powiązane</strong> szkolenia</h2>
                 <div class="row">
                     {{-- <div class="col-12 col-sm-6 col-lg-4 mb-4">
                         <div class="portfolio-item">
