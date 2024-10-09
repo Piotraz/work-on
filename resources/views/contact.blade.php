@@ -50,7 +50,7 @@
 
             <div class="row mb-5">
 
-                <div class="col-lg-6 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300" data-plugin-options="{'accY': -200}">
+                <div class="col-lg-6">
 
                     <h4 class="pt-5">Biuro <strong>projektu</strong></h4>
                     <ul class="list list-icons list-icons-style-3 mt-2">
@@ -60,7 +60,7 @@
                     </ul>
 
                 </div>
-                <div class="col-lg-6 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1000" data-plugin-options="{'accY': -200}">
+                <div class="col-lg-6">
 
                     <h4 class="pt-5">Godziny pracy <strong>biura</strong></h4>
                     <ul class="list list-icons list-dark mt-2">
