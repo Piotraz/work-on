@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-12 align-self-center p-static order-2 text-center">
                         <h1 class="font-weight-bold text-dark">Ścieżka FIZJO</h1>
-                        <span class="sub-title text-dark"><strong>Rekrutacja do 30 listopada 2024</strong></span>
+                        {{-- <span class="sub-title text-dark"><strong>Rekrutacja do 30 listopada 2024</strong></span> --}}
                     </div>
                     <div class="col-md-12 align-self-center order-1 mb-3">
                         <ul class="breadcrumb d-block text-center">
@@ -25,6 +25,9 @@
 
         {{-- Włącz się do pracy w branży --}}
         <div class="container">
+
+            {{-- Rekrutacja baner--}}
+            @include("includes.rekrutacja_fizjo")
 
             <div class="row text-center pb-5">
                 <div class="col-md-9 mx-md-auto">

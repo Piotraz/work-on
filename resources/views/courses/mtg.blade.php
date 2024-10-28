@@ -25,6 +25,9 @@
 
         <div class="container">
 
+            {{-- Rekrutacja baner--}}
+            @include("includes.rekrutacja_fizjo")
+
             {{-- Zdjęcie główne karuzela --}}
             <div class="row">
                 <div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
