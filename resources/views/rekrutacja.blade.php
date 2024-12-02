@@ -79,7 +79,7 @@
                                 <h4 class="font-weight-bold text-4">Terminy przyjmowania zgłoszeń:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-4">
                                     <li><i class="fas fa-check"></i> Ścieżka IT edycja 1 (30 osób) - <strong><del>do 17 października 2024 roku</del></strong></li>
-                                    <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 1 (24 osoby)- <strong>do 30 listopada 2024 roku</strong></li>
+                                    <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 1 (24 osoby)- <strong>do 31 grudnia 2024 roku</strong></li>
                                     <li><i class="fas fa-check"></i> Ścieżka IT edycja 2 (30 osób) - <strong>rok 2025 (szczegóły wkrótce)</strong></li>
                                     <li><i class="fas fa-check"></i> Ścieżka FIZJO edycja 2 (24 osoby)- <strong>rok 2025 (szczegóły wkrótce)</strong></li>
 
