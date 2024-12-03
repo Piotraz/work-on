@@ -10,7 +10,7 @@
                 <div class="row">
                     <div class="col-md-12 align-self-center p-static order-2 text-center">
                         <h1 class="font-weight-bold text-dark">Ścieżka IT</h1>
-                        {{-- <span class="sub-title text-dark"><strong>Rekrutacja do 17 października 2024</strong></span> --}}
+                        <span class="sub-title text-dark"><strong>Włącz się do pracy w branży IT</strong></span>
                     </div>
                     <div class="col-md-12 align-self-center order-1 mb-3">
                         <ul class="breadcrumb d-block text-center">
@@ -29,10 +29,10 @@
             {{-- Rekrutacja baner--}}
             @include("includes.rekrutacja_it")
 
-            <div class="row text-center pb-5">
+            {{-- <div class="row text-center pb-5">
                 <div class="col-md-9 mx-md-auto">
                     <div class="overflow-hidden mb-3">
-                        <h1 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
+                        <h1 class="word-rotator slide font-weight-bold text-6 mb-0 appear-animation" data-appear-animation="maskUp">
                             <span>Włącz się do pracy w branży</span>
                             <span class="word-rotator-words bg-primary">
                                 <b class="is-visible">IT</b>
@@ -40,145 +40,32 @@
                         </h1>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="row mt-3 mb-5">
                 <div class="col-md-3 appear-animation mb-3" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="800">
                     <h3 class="font-weight-bold text-4 mb-2">Co możesz osiągnąć ?</h3>
-                    <p>Przystępując do projektu WORK-ON 7 <mark class="text-white bg-color-primary">zwiększasz swoje szanse na lepsze zatrudnienie</mark>.</p>
-                    <p>Otrzymasz od nas kompleksowe wsparcie w zdobywaniu nowych kwalifikacji i kompenecji oraz szansę na zdobycie nowego doświadczenia zawodowego. Z nami wejdziesz do najszybciej rozwijającej się branży na świecie - do branży IT.</p>
+                    <p>Przystępując do projektu WORK-ON 7 <strong>zwiększasz swoje szanse na lepsze zatrudnienie</strong>.</p>
+                    <p>Otrzymasz od nas kompleksowe wsparcie w zdobywaniu nowych kwalifikacji i kompenecji oraz szansę na zdobycie nowego doświadczenia zawodowego.</p>
                     <a href="#zapewniamy" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
                 <div class="col-md-6 appear-animation mb-3" data-appear-animation="fadeIn" data-appear-animation-delay="600">
                     <h3 class="font-weight-bold text-4 mb-2">Kto może uczestniczyć ?</h3>
-                    <p><mark class="text-white bg-color-primary">Osoby planujące przekwalifikować się do pracy w branży IT</mark>, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
-                    <p>Osoby, które aktualnie wykonują prace nie wymagające specjalistycznych kwalifikacji (no skill jobs), często jeszcze w trakcie nauki/studiów lub bezpośrednio po jej zakończeniu. Osoby, które posiadają już pewne predyspozycje i kompetencje z IT, ale nie posiadają potwierdzonych kwalifikacji, ani doświadczenia zawodowego.</p>
-                    <p>Formalnie, grupę docelową stanowią osoby dorosłe, mieszkające lub pracujące na terenie woj. kujawsko-pomorskiego. <mark class="text-white bg-color-primary">NIE ma górnej granicy wieku!</mark> Wsparciem możemy objąć tylko <mark class="text-white bg-color-primary">osoby pracujące</mark> w trudnej sytuacji na rynku pracy.</p>
+                    <p><strong>Każdy kto planuje przekwalifikować się do pracy w IT</strong>.</p>
+                    <p>Jeśli nie posiadasz kwalifikacji informatycznych, ale masz pewne predyspozycje i kompetencje do pracy w IT.</p>
+                    <p>A może potrzebujesz doświadczenia zawodowego, aby zacząć pierwszą pracę?</p>
+                    <p><strong>Musisz jednak spełniać wymagania formalne projektu.</strong></p>
                     <a href="#dlakogo" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
                 <div class="col-md-3 appear-animation mb-3" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800">
                     <h3 class="font-weight-bold text-4 mb-2">Jak się zapisać ?</h3>
-                    <p>Wystarczy dokładnie zapoznać się z wymaganiami dot. grupy docelowej.</p>
-                    <p>Następnie należy <mark class="text-white bg-color-primary">uzupełnić formularz zgłoszeniowy</mark> i wysłać w wymaganym terminie.</p>
+                    <p>Wystarczy <strong>uzupełnić formularz zgłoszeniowy</strong> i wysłać w wymaganym terminie.</p>
                     <p>Kolejne etapy rekrutacji to ocena merytoryczna oraz rozmowa kwalifikacyjna, która jest zwieńczeniem procesu rekrutacyjnego.</p>
                     <a href="{{ route('rekrutacja') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
 
         </div>
-
-        {{-- Uczestnikom zapewniamy --}}
-        <section class="section bg-color-grey section-height-2 border-0 m-0 mb-5" id="zapewniamy">
-            <div class="container">
-
-                <h2 class="font-weight-normal text-7">Uczestnikom <strong class="font-weight-extra-bold">zapewniamy</strong></h2>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-handshake-simple"></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Doradztwo zawodowe</h4>
-                                <p class="mb-4">Spotkanie z doradcą zawodowym, dzięki któremu zbadamy Twój potencjał i określimy Plan Działania w projekcie zgodny z Twoimi predyspozycjami.</p>
-                            </div>
-                        </div>
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fas fa-laptop-code fa-xl "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Akademia kwalifikacji w IT</h4>
-                                <p class="mb-0">Profesjonalne szkolenie zawodowe ukierunkowane na kwalifikacje i kompetencje wynikających z potrzeb rynku pracy w branży IT.</p>
-                                <p class="mb-4"><mark class="text-white bg-color-primary">Weźmiesz udział w 1 z 3 szkoleń:</mark> <a href="{{ route('course.cisco') }}">Administrator sieci Cisco (CCNA)</a>, <a href="{{ route('course.frontend') }}">Front-end developer</a>, <a href="{{ route('course.marketing') }}">Marketing internetowy</a>. Każde w wymiarze 150 godzin.</p>
-                            </div>
-                        </div>
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-regular fa-message fa-xl "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Business English</h4>
-                                <p class="mb-0"><a href="{{ route('course.english') }}">Business English</a> to intensywny kurs znajomości języka angielskiego w środowisku pracy, w wymiarze 90 godzin.</p>
-                                <p class="mb-4">Po zakończonym szkoleniu przystąpisz do egzaminu na <mark class="text-white bg-color-primary">certyfikat TOEIC® Listening and Reading</mark>.</p>
-                            </div>
-                        </div>
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-person-chalkboard "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Akademia kompetencji miękkich</h4>
-                                <p class="mb-0">Szkolenie ukierunkowane na rozwój kluczowych kompetencji związanych z rozwojem zawodowym.</p>
-                                <p class="mb-4">Zadbamy o Twoje kompetencje miękkie, które pomogą Ci w znalezieniu lepszego zatrudnienia. Przygotujemy Ciebie do procesu rekrutacji, awansu czy zmiany stanowiska pracy.</p>
-                            </div>
-                        </div>
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-sack-dollar "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Stydendium i inne benefity</h4>
-                                <p class="mb-0">Za udział w zajęciach otrzymasz od nas <mark class="text-white bg-color-primary">stypendium szkoleniowe - około 100 zł</mark> za każdy dzień szkolenia. Warunkiem otrzymania stypendium jest jednak regularna frekwencja.</p>
-                                <p class="mb-4">Wszystkie zajęcia odbywać się będą stacjonarnie i aby uczyło się przyjemnie i efektywnie, zapewniamy smaczny catering oraz pyszną kawę.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-sm-6">
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-globe "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Targi pracy</h4>
-                                <p class="mb-0">Po zakończeniu części szkoleniowej <mark class="text-white bg-color-primary">organizujemy konferencję z udziałem pracodawców</mark> z branży IT, w formie targów pracy.</p>
-                                <p class="mb-0">To doskonała szansa dla Ciebie na zaprezentowanie swoich kompetencji i umiejętności, poznanie rynku pracy, czy przeprowadzenie pierwszych rozmów kwalifikacyjnych.</p>
-                                <p class="mb-4">Dobrze przepracowany udział w konferencji to gwarancja stażu w wymarzonej firmie. A może od razu nowej pracy?</p>
-                            </div>
-                        </div>
-
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-person-digging "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
-                                <p class="mb-0"><mark class="text-white bg-color-primary">Staż w wymiarze 3 miesięcy</mark> na stanowisku zgodnym z Twoim profilem zawodowym, to szansa na zdobycie lub uzupełnienie niezbędnego doświadczenia zawodowego. Dobrze wykorzystany czas na stażu to gwarancja nabycia praktycznych umiejętności w zakresie wykonywania danego zawodu.</p>
-                                <p class="mb-0">Za udział w stażu możemy zapłacić Tobie około 2000 zł miesięcznie.</p>
-                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w staż w wymiarze pełnego etatu lub po prostu nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
-                            </div>
-                        </div>
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-handshake-simple "></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
-                                <p class="mb-0">Indywidualne spotkania z pośrednikiem pracy na koniec Twojego udziału w projekcie.</p>
-                                <p class="mb-4"><mark class="text-white bg-color-primary">Nasz pośrednik pomoże Tobie znaleźć lepszą pracę</mark>. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie Tobie jak zawalczyć o awans lub podwyżkę wynagrodzenia.</p>
-                            </div>
-                        </div>
-                        <div class="feature-box feature-box-style-2">
-                            <div class="feature-box-icon text-color-primary">
-                                <i class="fa-solid fa-circle-exclamation"></i>
-                            </div>
-                            <div class="feature-box-info">
-                                <h4 class="font-weight-bold text-4-5 mb-1">Uwaga!</h4>
-                                <p class="mb-0">Szkolenie IT jest tylko jednym z elementów projektu. Pozostałe wymienione formy wsparcia są obowiązkowe. Jedynie staż nie jest obowiązkowy, ale pod pewnymi warunkami.</p>
-                                <p class="mb-4">Można wziąć udział tylko w jednym szkoleniu IT.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
 
         {{-- Szkolenia na ścieżce --}}
         <section class="section section-height-1 bg-color-white m-0 border-0">
@@ -244,6 +131,115 @@
                 </div>
             </div>
         </section>
+
+        {{-- Uczestnikom zapewniamy --}}
+        <section class="section bg-color-grey section-height-2 border-0 m-0 mb-5" id="zapewniamy">
+            <div class="container">
+
+                <h2 class="font-weight-normal text-7">Uczestnikom <strong class="font-weight-extra-bold">zapewniamy</strong></h2>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-handshake-simple"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Doradztwo zawodowe</h4>
+                                <p class="mb-4">Zbadamy Twój potencjał i określimy Plan Działania zgodny z Twoimi predyspozycjami.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fas fa-laptop-code fa-xl "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Akademia kwalifikacji w IT</h4>
+                                <p class="mb-4">Profesjonalne szkolenia zawodowe ukierunkowane na kwalifikacje i kompetencje wynikających z potrzeb rynku pracy: <a href="{{ route('course.cisco') }}">Administrator sieci Cisco (CCNA)</a>, lub <a href="{{ route('course.frontend') }}">Front-end developer</a>, lub <a href="{{ route('course.marketing') }}">Marketing internetowy</a>.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-regular fa-message fa-xl "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Business English</h4>
+                                <p class="mb-4"><a href="{{ route('course.english') }}">Business English</a> - intensywny kurs znajomości języka angielskiego w środowisku pracy z certyfikatem <strong>TOEIC® Listening and Reading</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-person-chalkboard "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Akademia kompetencji miękkich</h4>
+                                <p class="mb-4">Szkolenie ukierunkowane na rozwój zawodowy i przygotowanie do rekrutacji, awansu czy zmiany stanowiska pracy.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-sack-dollar "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Stydendium i inne benefity</h4>
+                                <p class="mb-0">Za udział w zajęciach wypłacamy <strong>stypendium szkoleniowe - około 100 zł</strong> za każdy dzień szkolenia. Warunkiem otrzymania stypendium jest jednak regularna frekwencja.</p>
+                                <p class="mb-4">Zajęcia odbywać się będą stacjonarnie i aby uczyło się efektywnie, zapewniamy smaczny catering oraz pyszną kawę.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-globe "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Targi pracy</h4>
+                                <p class="mb-0">To doskonała szansa na zaprezentowanie swoich umiejętności i przeprowadzenie pierwszych rozmów kwalifikacyjnych.</p>
+                                <p class="mb-4">Dobrze przepracowany udział w konferencji to gwarancja stażu w wymarzonej firmie. A może od razu nowej pracy?</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-person-digging "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
+                                <p class="mb-0"><strong>Staż w wymiarze 3 miesięcy</strong> to szansa na zdobycie niezbędnego doświadczenia zawodowego i poznanie przyszłego pracodawcy.</p>
+                                <p class="mb-0">Za udział w stażu możemy zapłacić Tobie około 2000 zł miesięcznie.</p>
+                                <p class="mb-4"><strong>Staż nie jest obowiązkowy</strong>, jeśli Twoja obecna praca nie pozwala na zaangażowanie się w wymiarze pełnego etatu lub nie jest on Tobie potrzebny do poprawy aktualnych warunków zatrudnienia.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-handshake-simple "></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
+                                <p class="mb-4"><strong>Nasz pośrednik pomoże Tobie znaleźć lepszą pracę</strong>. Jeśli jednak planujesz pozostać u aktualnego pracodawcy, to podpowie jak zawalczyć o awans lub podwyżkę wynagrodzenia.</p>
+                            </div>
+                        </div>
+                        <div class="feature-box feature-box-style-2">
+                            <div class="feature-box-icon text-color-primary">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                            </div>
+                            <div class="feature-box-info">
+                                <h4 class="font-weight-bold text-4-5 mb-1">Uwaga!</h4>
+                                <p class="mb-0">Szkolenie IT jest tylko jednym z elementów projektu. Pozostałe wymienione formy wsparcia (oprócz stażu) są <strong>obwiązkowe</strong>.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
         {{-- Ścieżka IT w liczbach --}}
         <div class="container">

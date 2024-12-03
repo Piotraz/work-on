@@ -70,8 +70,8 @@
                     </ul>
                     <h2 class="text-color-dark font-weight-normal text-5 mb-2"><strong class="font-weight-extra-bold">Program</strong> kursu</h2>
                     <p>Szkolenie realizowane będzie przez okres 2 dni w wymiarze 16 godzin zgodnie z programem ERGON Basic IASTM – FM1.</p>
-                    <p>Zajęcia odbywać się będą w grupach 24-osobowych. Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
-                    <p>Szkolenia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>
+                    <p>Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
+                    <p>Zajęcia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>
                     <p><strong>Kurs dodatkowo kończy się uzyskaniem międzynarodowego certyfikatu ERGON IASTM uznawanego na całym świecie.</strong></p>
 
                 </div>

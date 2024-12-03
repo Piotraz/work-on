@@ -194,6 +194,11 @@
 							</div>
 						</div>
 					</div>
+
+                    <div class="container py-0">
+                        <img src="{{ asset('img/logo_ue_poziom_kolor.jpg') }}" class="img-fluid" alt="Logo UE FEKP">
+                    </div>
+
 				</div>
 			</header>
 

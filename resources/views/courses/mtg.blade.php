@@ -76,8 +76,8 @@
                         <li><i class="fas fa-check"></i> Górny kwadrant</li>
                         <li><i class="fas fa-check"></i> Szyja, twarz i głowa</li>
                     </ul>
-                    <p>Zajęcia odbywać się będą w grupach 24-osobowych. Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
-                    <p>Szkolenia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>
+                    <p>Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
+                    <p><strong>Zajęcia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</strong></p>
 
                 </div>
 

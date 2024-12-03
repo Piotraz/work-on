@@ -4,9 +4,7 @@
 
     <div role="main" class="main">
 
-        <div class="container py-0">
-            <img src="{{ asset('img/logo_ue_poziom_kolor.jpg') }}" class="img-fluid" alt="Logo UE FEKP">
-        </div>
+
 
         {{-- Slider --}}
         <div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['670px','670px','670px','550px','500px']" style="height: 670px;">
@@ -39,6 +37,27 @@
                         </div>
                     </div>
 
+                    <!-- Carousel Slide 3 -->
+                    <div class="owl-item position-relative" style="background-image: url({{ asset('img/slider-fizjo.jpg') }}); background-color: #2E3136; background-size: cover; background-position: center;">
+                        <div class="container position-relative z-index-1 h-100">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                <h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
+                                    <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
+                                        <img src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+                                    </span>
+                                    Wejdź na wyższy <span class="position-relative">poziom <span class="position-absolute left-50pct transform3dx-n50 top-0 mt-4"><img src="{{ asset('img/slides/slide-blue-line.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
+                                    <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
+                                        <img src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
+                                    </span>
+                                </h3>
+                                <h1 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Ścieżka FIZJO </h1>
+                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Poznaj najnowsze techniki, aby skuteczniej pomagać swoim pacjentom.</p>
+
+                                <a href="{{ route('project.fizjo') }}" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Carousel Slide 2 -->
                     <div class="owl-item position-relative" style="background-image: url({{ asset('img/slider-it.jpg') }}); background-color: #2E3136; background-size: cover; background-position: center;">
                         <div class="container position-relative z-index-1 h-100">
@@ -57,27 +76,6 @@
                                 <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Udział w projekcie to szansa na zmianę profilu zawodowego na bardziej opłacalny.</p>
 
                                 <a href="{{ route('project.it') }}" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Carousel Slide 3 -->
-                    <div class="owl-item position-relative" style="background-image: url({{ asset('img/slider-fizjo.jpg') }}); background-color: #2E3136; background-size: cover; background-position: center;">
-                        <div class="container position-relative z-index-1 h-100">
-                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
-                                <h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation" data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': 0}">
-                                    <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-                                        <img src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-                                    </span>
-                                    Wejdź na wyższy <span class="position-relative">poziom <span class="position-absolute left-50pct transform3dx-n50 top-0 mt-4"><img src="{{ asset('img/slides/slide-blue-line.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
-                                    <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-                                        <img src="{{ asset('img/slides/slide-title-border.png') }}" class="w-auto appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250" data-plugin-options="{'minWindowWidth': 0}" alt="" />
-                                    </span>
-                                </h3>
-                                <h1 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">Ścieżka FIZJO </h1>
-                                <p class="text-4 text-color-light font-weight-light opacity-7 mb-5 text-center px-5"  data-appear-animation="fadeInLeftShorter" data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0}">Poznaj najnowsze techniki, aby skuteczniej pomagać swoim pacjentom.</p>
-
-                                <a href="{{ route('project.fizjo') }}" class="btn btn-light btn-outline text-color-light text-color-hover-dark font-weight-bold text-3 btn-px-5 py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1500" data-plugin-options="{'minWindowWidth': 0}">SPRAWDŹ!</a>
                             </div>
                         </div>
                     </div>
@@ -134,7 +132,7 @@
                     <p class="lead appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
                         Projekt <span class="text-primary font-weight-bold alternative-font-2">WORK-ON 7</span> to kompleksowe wsparcie w zdobyciu nowego, lepszego zatrudnienia.
                     </p>
-                    <p>Dzięki funduszom unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <mark class="text-white bg-color-primary">Zainwestuj w siebie i dołącz do naszego projektu</mark>.</p>
+                    {{-- <p>Dzięki funduszom unijnym możemy zaoferować Tobie doradztwo zawodowe, specjalistyczne szkolenia, warsztaty kompetencji miękkich, staż zawodowy i pośrednictwo w znalezieniu lepszej pracy. <mark class="text-white bg-color-primary">Zainwestuj w siebie i dołącz do naszego projektu</mark>.</p> --}}
                 </div>
             </div>
 
@@ -194,7 +192,7 @@
                     <p class="text-primary font-weight-bold alternative-font-2">#FunduszeUE #FunduszeEuropejskie</p>
                     <p>Okres realizacji projektu: <strong> 01.09.2024 – 31.12.2025</strong></p>
                     <p>Wartość projektu: <strong> 2 048 133,08 zł</strong></p>
-                    <p>Wysokość wkładu z Funduszy Europejskich: <strong> 1 841 733,08 zł</strong></p>
+                    <p>Wysokość wkładu z Funduszy UE: <strong> 1 841 733,08 zł</strong></p>
                 </div>
             </div>
         </section>
@@ -214,7 +212,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Doradztwo zawodowe</h4>
-                                    <p class="mb-4">Spotkanie z doradcą zawodowym, dzięki któremu zbadamy Twój potencjał i określimy Plan Działania w projekcie zgodny z Twoimi predyspozycjami.</p>
+                                    <p class="mb-4">Zbadamy Twój potencjał i określimy Plan Działania zgodny z Twoimi predyspozycjami.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
@@ -223,7 +221,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Szkolenia</h4>
-                                    <p class="mb-4">Profesjonalne szkolenia zawodowe ukierunkowanych na kwalifikacje i kompetencje wynikających z potrzeb rynku pracy.</p>
+                                    <p class="mb-4">Profesjonalne szkolenia ukierunkowane na kompetencje potrzebne na rynku pracy.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
@@ -232,7 +230,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Stydendium i inne benefity</h4>
-                                    <p class="mb-4">Za udział w zajęciach otrzymasz od nas stypendium szkoleniowe. Aby uczyło się przyjemnie i efektywnie, zapewniamy każdego dnia smaczny catering oraz pyszną kawę.</p>
+                                    <p class="mb-4">Za udział w zajęciach wypłacamy stypendium szkoleniowe. Aby uczyło się efektywnie, zapewniamy smaczny catering oraz pyszną kawę.</p>
                                 </div>
                             </div>
 
@@ -244,7 +242,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Akademia kompetencji miękkich</h4>
-                                    <p class="mb-4">Szkolenie ukierunkowane na rozwój kluczowych kompetencji miękkich związanych z rozwojem zawodowym i przygotowaniem do procesu rekrutacji, awansu czy zmiany stanowiska pracy.</p>
+                                    <p class="mb-4">Szkolenie ukierunkowane na rozwój zawodowy i przygotowanie do rekrutacji, awansu czy zmiany stanowiska pracy.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
@@ -253,7 +251,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Płatne staże zawodowe</h4>
-                                    <p class="mb-4">Szansa na zdobycie lub uzupełnienie doświadczenia zawodowego oraz nabycie praktycznych umiejętności w zakresie wykonywania danego zawodu.</p>
+                                    <p class="mb-4">Szansa na uzupełnienie doświadczenia oraz nabycie praktycznych umiejętności w danym zawodzie.</p>
                                 </div>
                             </div>
                             <div class="feature-box feature-box-style-2">
@@ -262,7 +260,7 @@
                                 </div>
                                 <div class="feature-box-info">
                                     <h4 class="font-weight-bold text-4-5 mb-1">Pośrednictwo pracy</h4>
-                                    <p class="mb-4">Indywidualne spotkania z pośrednikiem pracy w celu uzyskania lepszego zatrudnienia.</p>
+                                    <p class="mb-4">Spotkania z pośrednikiem pracy w celu uzyskania lepszego zatrudnienia.</p>
                                 </div>
                             </div>
 
@@ -282,9 +280,9 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse12One" class="collapse show" aria-labelledby="collapse12HeadingOne" data-bs-parent="#accordion12" style="">
+                            <div id="collapse12One" class="collapse" aria-labelledby="collapse12HeadingOne" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p><mark class="text-white bg-color-primary">Dla osób planujących przekwalifikować się do pracy w branży IT</mark>, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
+                                    <p><strong>Dla osób planujących przekwalifikować się do pracy w branży IT</strong>, które nie posiadają kwalifikacji informatycznych, ale dzięki udziałowi w projekcie, nabędą je i wraz z uzyskaniem doświadczenia zawodowego, zmienią branżę na IT.</p>
                                     <a href="{{ route('project.it') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
 
                                 </div>
@@ -299,9 +297,9 @@
                                     </a>
                                 </h4>
                             </div>
-                            <div id="collapse12Two" class="collapse" aria-labelledby="collapse12HeadingTwo" data-bs-parent="#accordion12" style="">
+                            <div id="collapse12Two" class="collapse show" aria-labelledby="collapse12HeadingTwo" data-bs-parent="#accordion12" style="">
                                 <div class="card-body">
-                                    <p><mark class="text-white bg-color-primary">Dla fizjoterapeutów i masażystów</mark>, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im dodatkowych kompetencji, znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem na najwyższym poziomie.</p>
+                                    <p><strong>Dla fizjoterapeutów i masażystów</strong>, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem.</p>
                                     <a href="{{ route('project.fizjo') }}" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>

@@ -5,3 +5,19 @@
 .social-icons li:hover.social-icons-envelope a {
 	background: #000000 !important;
 }
+
+/* Header Nav Main Mobile */
+@media (max-width: 991px) {
+    #header .header-nav-main nav {
+        padding: 50px 15px 0px 15px !important;
+    }
+}
+
+.testimonial .testimonial-author img {
+    max-width: 45px !important;
+}
+
+.page-header.page-header-modern.page-header-lg {
+	padding: 40px 0 !important;
+}
+

@@ -29,7 +29,7 @@
                     <li><i class="fas fa-check"></i> zatrudnione na umowę o pracę na czas określony, która skończy się w trakcie realizacji projektu (bez względu na wysokość wynagrodzenia) lub</li>
                     <li><i class="fas fa-check"></i> pracujące na podstawie umowy cywilnoprawnej, np. umowy zlecenia (bez względu na wysokość wynagrodzenia).</li>
                 </ul>
-                <p class="mb-4">Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych umów lub zaświadczeń od pracodawcy.</p>
+                <p class="mb-4"><strong>Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych dokumentów.</strong></p>
             </div>
         </div>
     </div>

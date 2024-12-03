@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col">
 
-                    <div class="row text-center pb-5">
+                    {{-- <div class="row text-center pb-5">
                         <div class="col-md-9 mx-md-auto">
                             <div class="overflow-hidden mb-3">
                                 <h1 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
@@ -36,7 +36,7 @@
                                 </h1>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="process process-vertical">
                         {{-- 1 --}}
@@ -49,14 +49,14 @@
                                 <p>Dokładnie zapoznaj się z <a href="documents/regulamin_workon7.pdf" target="_blank">Regulaminem projektu</a>, w którym szczegółowo opisane są warunki rekrutacji oraz możliwości, jakie daje udział w projekcie WORK-ON. Dokładnie opisano też grupę docelową osób, które mogą wziąć udział w projekcie, a także punktację przy rekrutacji.</p>
                                 <h4 class="font-weight-bold text-4"> Kto może wziąć udział w projekcie:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
-                                    <li><i class="fas fa-check"></i> Osoby mieszkające w <mark class="text-white bg-color-primary">woj. kujawsko-pomorskiem</mark> w rozumieniu przepisów Kodeksu Cywilnego lub</li>
+                                    <li><i class="fas fa-check"></i> Osoby mieszkające w <strong>woj. kujawsko-pomorskim</strong> w rozumieniu przepisów Kodeksu Cywilnego lub</li>
                                     <li><i class="fas fa-check"></i> pracujące na terenie woj. kujawsko-pomorskiego.</li>
-                                    <li><i class="fas fa-check"></i> <mark class="text-white bg-color-primary">Osoby zatrudnione</mark> na umowę o pracę na kwotę nie przekraczającą minimalnego wynagrodzenia - aktualnie 4300 zł brutto (bez względu na wymiar czasu pracy) lub</li>
+                                    <li><i class="fas fa-check"></i> <strong>Osoby zatrudnione</strong> na umowę o pracę na kwotę nie przekraczającą minimalnego wynagrodzenia - aktualnie 4300 zł brutto (bez względu na wymiar czasu pracy) lub</li>
                                     <li><i class="fas fa-check"></i> zatrudnione na umowę o pracę na czas określony nie dłuższy niż 6 miesięcy (bez względu na wysokość wynagrodzenia) lub</li>
                                     <li><i class="fas fa-check"></i> zatrudnione na umowę o pracę na czas określony, która skończy się w trakcie realizacji projektu (bez względu na wysokość wynagrodzenia) lub</li>
                                     <li><i class="fas fa-check"></i> pracujące na podstawie umowy cywilnoprawnej, np. umowy zlecenia (bez względu na wysokość wynagrodzenia).</li>
                                 </ul>
-                                <p class="mb-4">Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych umów lub zaświadczeń od pracodawcy.</p>
+                                <p class="mb-4"><strong>Wszystkie kryteria będą weryfikowane na dzień rozpoczęcia udziału w projekcie na podstawie przedtawionych dokumentów.</strong></p>
                                 <a href="documents/regulamin_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline">Regulamin projektu  <i class="fa-solid fa-cloud-arrow-down"></i></a>
                             </div>
                         </div>
@@ -67,14 +67,15 @@
                             </div>
                             <div class="process-step-content">
                                 <h4 class="mb-3 text-4-5 font-weight-bold">Formularz zgłoszeniowy</h4>
-                                <p>Uzupełnij Formularz zgłoszeniowy. Możesz pobrać <a href="#" target="_blank">Formularz zgłoszeniowy PDF</a>, a następnie wydrukować i uzupełnić go ręcznie lub możesz wypełnić <a href="#" target="_blank">Elektroniczny formularz zgłoszeniowy</a>.</p>
-                                <h4 class="font-weight-bold text-4"> Formularz możesz dostarczyć do nas na kilka sposobów:</h4>
+
+                                <p>Możesz pobrać <a href="#" target="_blank">Formularz w postaci pliku PDF</a>, a następnie uzupełnić go ręcznie. Dostarczysz go do nas:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
-                                    <li><i class="fas fa-check"></i> osobiście do Biura projektu (chętnie pomożemy w jego uzupełnieniu)</li>
-                                    <li><i class="fas fa-check"></i> wysłać pocztą lub kurierem na adres Biura projektu (decyduje data wpływu)</li>
-                                    <li><i class="fas fa-check"></i> wysłać skan podpisanego formularza mailem na adres: <a href="mailto:projekt@work-on.pl">projekt@work-on.pl</a></li>
-                                    <li><i class="fas fa-check"></i> uzupełnić  <a href="#" target="_blank">Elektroniczny formularz zgłoszeniowy</a> </li>
+                                    <li><i class="fas fa-check"></i> osobiście do Biura projektu (chętnie pomożemy w uzupełnieniu)</li>
+                                    <li><i class="fas fa-check"></i> pocztą lub kurierem na adres Biura projektu (decyduje data wpływu)</li>
+                                    <li><i class="fas fa-check"></i> mailem na adres: <a href="mailto:projekt@work-on.pl">projekt@work-on.pl</a></li>
                                 </ul>
+
+                                <p><strong>Możesz też wypełnić <a href="#" target="_blank">Elektroniczny formularz zgłoszeniowy online</a>.</strong></p>
 
                                 <h4 class="font-weight-bold text-4">Terminy przyjmowania zgłoszeń:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-4">
@@ -87,7 +88,6 @@
                                 <a href="documents/formularz_zgloszeniowy_workon7.pdf" target="_blank" class="btn btn-modern btn-primary btn-outline mb-3">Formularz zgłoszeniowy PDF  <i class="fa-solid fa-cloud-arrow-down ms-1"></i></a>
                                 <a href="https://forms.gle/fHNVESxRsPtXLZuBA" target="_blank" class="btn btn-modern btn-primary btn-outline mb-3">Formularz zgłoszeniowy ONLINE <i class="fas fa-external-link-alt ms-1"></i></a>
 
-                                {{-- <div class="alert alert-secondary text-center mb-4">Start rekrutacji 23 września 2024r.</div> --}}
                             </div>
                         </div>
                         {{-- 3 --}}
@@ -98,15 +98,19 @@
                             <div class="process-step-content">
                                 <h4 class="mb-3 text-4-5 font-weight-bold">Testy wstępne</h4>
                                 <p>Aby efektywnie uczestniczyć w projekcie należy posiadać na wstępie określoną wiedzę. Dla osób kandydujących do grupy IT istotna jest podstawowa wiedza techniczna (matematyka, informatyka) oraz znajomość j. angielskiego (min. A2), a dla grupy FIZJO wiedza z zakresu anatomii i fizjologii człowieka.</p>
-                                <h4 class="font-weight-bold text-4"> Jakie napiszesz testy:</h4>
+                                <h4 class="font-weight-bold text-4">Ścieżka IT</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
-                                    <li><i class="fas fa-check"></i> kompetencji społecznych i zawodowych</li>
-                                    <li><i class="fas fa-check"></i> wiedzy matematyczno-informatycznej (ścieżka IT)</li>
-                                    <li><i class="fas fa-check"></i> znajomości języka angielskiego (ścieżka IT)</li>
-                                    <li><i class="fas fa-check"></i> wiedzy z anatomii i fizjologii człowieka (ścieżka FIZJO)</li>
-
+                                    <li><i class="fas fa-check"></i> test kompetencji społecznych i zawodowych</li>
+                                    <li><i class="fas fa-check"></i> test wiedzy matematyczno-informatycznej (ścieżka IT)</li>
+                                    <li><i class="fas fa-check"></i> test znajomości języka angielskiego (ścieżka IT)</li>
                                 </ul>
-                                <p class="mb-4">Testy zostaną przeprowadzone on-line. Na podany adres e-mail wyślemy Tobie dokładną datę, godzinę oraz link do spotkania.</p>
+
+                                <h4 class="font-weight-bold text-4">Ścieżka FIZJO</h4>
+                                <ul class="list list-icons list-icons-style-2 mb-3">
+                                    <li><i class="fas fa-check"></i> test kompetencji społecznych i zawodowych</li>
+                                    <li><i class="fas fa-check"></i> test wiedzy z anatomii i fizjologii człowieka (ścieżka FIZJO)</li>
+                                </ul>
+                                {{-- <p class="mb-4">Testy zostaną przeprowadzone on-line. Na podany adres e-mail wyślemy Tobie dokładną datę, godzinę oraz link do spotkania.</p> --}}
                             </div>
                         </div>
                         {{-- 4 --}}
@@ -124,7 +128,7 @@
                                     <li><i class="fas fa-check"></i> Podejmiemy wspólnie decyzję o wyborze odpowiedniego szkolenia zawodowego dla Ciebie (ścieżka IT)</li>
 
                                 </ul>
-                                <p class="mb-4">Preferujemy kontakt osobisty, ale w uzasadnionych przypadkach, rozmowa kwalifikacyjna będzie mogła odbyć się zdalnie.</p>
+                                {{-- <p class="mb-4">Preferujemy kontakt osobisty, ale w uzasadnionych przypadkach, rozmowa kwalifikacyjna będzie mogła odbyć się zdalnie.</p> --}}
                             </div>
                         </div>
                          {{-- 5 --}}
@@ -134,7 +138,7 @@
                             </div>
                             <div class="process-step-content">
                                 <h4 class="mb-3 text-4-5 font-weight-bold">Podpisanie umowy</h4>
-                                <p>Osoby spełniające wszystkie wymagania formalne z najwyższą liczbą punktów z rekrutacji zostaną przyjęte do udziału w projekcie. Zaprosimy Ciebie na podpisanie Umowy udziału w projekcie.</p>
+                                <p>Osoby spełniające wszystkie wymagania formalne z najwyższą liczbą punktów z rekrutacji zostaną przyjęte do udziału w projekcie.</p>
 
                                 <h4 class="font-weight-bold text-4"> Do podpisania umowy potrzebować będziemy:</h4>
                                 <ul class="list list-icons list-icons-style-2 mb-3">
@@ -143,7 +147,7 @@
                                     <li><i class="fas fa-check"></i> Ksero umowy o pracę, z której wprost wynikać będzie spełnienie warunków projektu lub ksero umowy zlecenia.</li>
 
                                 </ul>
-                                <p class="mb-4">Udział w projekcie trwać będzie od kilku miesięcy do ponad pół roku (w zależności od wybranej ścieżki). W tym czasie otrzymasz z funduszy unijnych wsparcie w wysokości kilkunastu tysięcy złotych. Decyzja o udziale w projekcie musi być przez Ciebie przemyślana, a dla nas zabezpieczona w formie umowy.</p>
+                                <p class="mb-4"><strong>Udział w projekcie trwać będzie od kilku miesięcy do ponad pół roku (w zależności od wybranej ścieżki). W tym czasie otrzymasz z funduszy unijnych wsparcie w wysokości kilkunastu tysięcy złotych. Decyzja o udziale w projekcie musi być przez Ciebie przemyślana, a dla nas zabezpieczona w formie umowy.</strong></p>
                             </div>
                         </div>
                     </div>

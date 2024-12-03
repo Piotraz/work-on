@@ -79,8 +79,8 @@
                     </ul>
                     <p>Po tej części szkolenia Twój sposób tapowania wejdzie zdecydowanie na wyższy poziom. Dzień drugi rozjaśni i poszerzy wiedzę z zakresu Tapingu redukującego objawy oraz Tapingu związanego z kontrolą posturalną omawianego podczas pierwszego dnia oraz przedstawi ekscytujące nowe techniki takie jak "Tweak Taping" dla poszerzenia i wydłużenia efektów terapii manualnej. Dodatkowo zostanie omówiony unikalny screening ruchu oraz aplikacje "Power Taping".</p>
 
-                    <p>Zajęcia odbywać się będą w grupach 24-osobowych. Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
-                    <p>Szkolenia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>
+                    <p>Szkolenia prowadzone będą na salach wyposażonych w kozetki do masażu. Specyfika szkoleń fizjoterapeutycznych polega na pracy w parach, gdzie na zmianę jedna osoba wykonuje ćwiczenia, a druga pełni rolę pacjenta.</p>
+                    <p>Zajęcia będą prowadzone przez doświadczonych trenerów, specjalistów w swojej branży.</p>
                     <p><strong>Kurs dodatkowo kończy się uzyskaniem międzynarodowego certyfikatu RockTape uznawanego na całym świecie.</strong></p>
 
                 </div>
