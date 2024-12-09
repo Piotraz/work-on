@@ -46,14 +46,14 @@
             <div class="row mt-3 mb-5">
                 <div class="col-md-3 appear-animation mb-3" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="800">
                     <h3 class="font-weight-bold text-4 mb-2">Co możesz osiągnąć ?</h3>
+                    <p>Dzięki udziałowi w projekcie, poznasz <strong>nowoczesne techniki pracy z pacjentem</strong>. Zdobędziesz wiedzę na międzynarodowym poziomie i nabędziesz praktyczne umiejętności jej wykorzystania w pracy zawodowej.</p>
                     <p>Przystępując do projektu WORK-ON 7 <strong>zwiększasz swoje szanse na lepsze zatrudnienie</strong> lub otwarcie własnej praktyki zawodowej.</p>
-                    <p><strong>Poznasz najnowsze techniki pracy fizjoterapeuty</strong>, aby skuteczniej pomagać swoim pacjentom.</p>
                     <a href="#zapewniamy" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
                 <div class="col-md-6 appear-animation mb-3" data-appear-animation="fadeIn" data-appear-animation-delay="600">
                     <h3 class="font-weight-bold text-4 mb-2">Kto może uczestniczyć ?</h3>
-                    <p><strong>Fizjoterapeuci i masażyści</strong>, którzy posiadają już kwalifikacje do wykonywania zawodu lub nabędą je w najbliższym czasie, ale brakuje im znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem.</p>
-                    <p>Wystarczy, że posiadasz podstawową wiedzę z anatomii i fizjologii człowieka - reszty nauczymy Ciebie na szkoleniach "krok po kroku".</p>
+                    <p>Ścieżka FIZJO skierowana jest do <strong>fizjoterapeutów, masażystów, trenerów personalnych oraz wszystkich specjalistów pracujących z ludzkim ciałem</strong>. Uczestnikami projektu mogą być również uczniowie i studenci kierunków fizjoterapii, masażu czy wychowania fizycznego.</p>
+                    <p>Jeśli posiadasz już kwalifikacje do wykonywania zawodu lub nabędziesz je w najbliższym czasie, ale brakuje Tobie znajomości nowoczesnych technik i umiejętności ich wykorzystania w pracy z pacjentem - <strong> ten projekt jest właśnie dla Ciebie</strong>. Wystarczy, że posiadasz podstawową wiedzę z anatomii i fizjologii człowieka - reszty nauczymy Ciebie "krok po kroku".</p>
                     <p><strong>Musisz jednak spełniać wymagania formalne projektu.</strong></p>
                     <a href="#dlakogo" data-hash data-hash-offset="0" data-hash-offset-lg="100" class="btn btn-modern btn-primary btn-outline btn-arrow-effect-1">Dowiedz się więcej <i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
@@ -193,6 +193,26 @@
                 </div>
             </div>
         </section>
+
+         {{-- Cytaty --}}
+         <div class="container mb-0">
+            <div class="mt-5 appear-animation" data-appear-animation="fadeInUpShorter">
+
+                    <h2 class="font-weight-normal text-6 mb-4">Doświadczenie i <strong class="font-weight-extra-bold">skuteczność</strong></h2>
+                    <div class="testimonial testimonial-primary">
+                        <blockquote>
+                            <p class="mb-0">Ośrodek Szkoleniowo-Wdrożeniowy to firma z bogatą tradycją szkoleniową. Od kilkunastu lat, wspólnie z <a class="text-white" href="https://masaztkanekglebokich.pl" target="_blank">masaztkanekglebokich.pl</a> przeszkoliliśmy już ponad 5000 osób w całej Polsce. Teraz, dzięki funduszom unijnym, możemy zaoferować Tobie zupełnie bezpłatnie trzy szkolenia, cieszące się największym zainteresowaniem. Dodatkowo, oprócz szkoleń zawodowych otrzymujesz od nas kurs rozwoju umiejętności miękkich, doradztwo zawodowe i pośrednictwo pracy, a także możliwość odbycia płatnych staży w celu zdobycia niezbędnego doświadczenia zawodowego.</p>
+                        </blockquote>
+                        <div class="testimonial-arrow-down"></div>
+                        <div class="testimonial-author">
+                            <div class="testimonial-author-thumbnail">
+                                <img src="{{ asset('img/avatar_piotr.webp') }}" class="rounded-circle" alt="Piotr Szarata / Koordynator projektu" />
+                            </div>
+                            <p><strong>Piotr Szarata</strong><span>Koordynator projektu</span></p>
+                        </div>
+                    </div>
+            </div>
+        </div>
 
         {{-- Kto może wziąć udzał --}}
         @include("includes.grupa_docelowa")
