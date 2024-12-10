@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="pl">
 	<head>
+        {{-- UserWay --}}
+        <script src="https://cdn.userway.org/widget.js" data-account="USYwad0qta"></script>
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LW8159EGCL"></script>
